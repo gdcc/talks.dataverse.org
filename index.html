@@ -44,8 +44,24 @@
     border: 1px solid var(--line); border-radius: 10px; background: var(--chip);
     vertical-align: middle; font-weight: normal; color: var(--muted);
   }
+  nav { display: flex; gap: 4px; margin: 0 0 16px; border-bottom: 1px solid var(--line); }
+  nav a {
+    padding: 6px 12px; color: var(--muted); border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  nav a:hover { text-decoration: none; color: var(--fg); }
+  nav a[aria-current] { color: var(--fg); border-bottom-color: var(--link); font-weight: 600; }
+  .meta a { color: inherit; }
+  .meta a:hover { color: var(--link); }
+  .filter { margin: 0 0 8px; }
+  .filter strong { font-size: 1.2rem; }
+  li.speaker { grid-template-columns: 1fr auto; align-items: baseline; }
+  .n { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .years { color: var(--muted); font-size: 0.9rem; margin-left: 8px; white-space: nowrap; }
+  .n { white-space: nowrap; }
   @media (max-width: 520px) {
     li { grid-template-columns: 1fr; gap: 2px; }
+    li.speaker { grid-template-columns: 1fr auto; }
   }
 </style>
 </head>
@@ -53,15 +69,22 @@
 <main>
   <h1>Dataverse Talks</h1>
   <p class="intro">Talks about <a href="https://dataverse.org">Dataverse</a>, newest first. Recordings are on <a href="https://github.com/IQSS/dataverse-tv">DataverseTV</a>. Missing a talk? <a href="https://github.com/gdcc/talks.dataverse.org">Let us know</a>.</p>
-  <input type="search" id="q" placeholder="Search titles, speakers, events…" aria-label="Search talks">
+  <nav>
+    <a href="#/" id="nav-talks">Talks</a>
+    <a href="#/speakers" id="nav-speakers">Speakers</a>
+  </nav>
+  <div id="filter" class="filter" hidden></div>
+  <input type="search" id="q" aria-label="Search">
   <p class="count" id="count">Loading…</p>
   <div id="list"></div>
 </main>
 <script>
   const list = document.getElementById("list");
   const count = document.getElementById("count");
+  const filter = document.getElementById("filter");
   const q = document.getElementById("q");
   let talks = [];
+  let speakers = [];
 
   function el(tag, cls, text) {
     const e = document.createElement(tag);
@@ -70,11 +93,38 @@
     return e;
   }
 
-  function render() {
+  const speakerHref = name => "#/speaker/" + encodeURIComponent(name);
+
+  function plural(n, word) {
+    return `${n} ${word}${n === 1 ? "" : "s"}`;
+  }
+
+  // Which view the URL asks for: all talks, the speaker list, or one speaker's talks.
+  function route() {
+    const h = location.hash;
+    if (h === "#/speakers") return { view: "speakers" };
+    if (h.startsWith("#/speaker/")) {
+      return { view: "talks", speaker: decodeURIComponent(h.slice("#/speaker/".length)) };
+    }
+    return { view: "talks" };
+  }
+
+  function matches(text) {
     const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
-    const shown = talks.filter(t => words.every(w => t._text.includes(w)));
-    count.textContent = `${shown.length} of ${talks.length} talks`;
-    list.replaceChildren();
+    return words.every(w => text.includes(w));
+  }
+
+  function renderTalks(speaker) {
+    let pool = talks;
+    filter.hidden = !speaker;
+    if (speaker) {
+      pool = talks.filter(t => t.speakers.includes(speaker));
+      const all = el("a", "", "All talks");
+      all.href = "#/";
+      filter.replaceChildren(el("strong", "", speaker), " · ", plural(pool.length, "talk"), " · ", all);
+    }
+    const shown = pool.filter(t => matches(t._text));
+    count.textContent = `${shown.length} of ${plural(pool.length, "talk")}`;
     let year, ul;
     for (const t of shown) {
       if (t.date.slice(0, 4) !== year) {
@@ -89,11 +139,61 @@
       if (t.slides) title.href = t.slides;
       body.append(title);
       if (t.type && t.type !== "talk") body.append(el("span", "tag", t.type));
-      const meta = [t.speakers.join(", "), t.event].filter(Boolean).join(" · ");
-      body.append(el("div", "meta", meta));
+      const meta = el("div", "meta");
+      t.speakers.forEach((s, i) => {
+        if (i) meta.append(", ");
+        const a = el("a", "", s);
+        a.href = speakerHref(s);
+        meta.append(a);
+      });
+      if (t.event) meta.append(t.speakers.length ? " · " : "", t.event);
+      body.append(meta);
       li.append(body);
       ul.append(li);
     }
+  }
+
+  function renderSpeakers() {
+    filter.hidden = true;
+    const shown = speakers.filter(s => matches(s.key));
+    count.textContent = `${shown.length} of ${plural(speakers.length, "speaker")}`;
+    const ul = list.appendChild(el("ul"));
+    for (const s of shown) {
+      const li = el("li", "speaker");
+      const name = el("div");
+      const a = el("a", "title", s.name);
+      a.href = speakerHref(s.name);
+      name.append(a);
+      name.append(el("span", "years", s.first === s.last ? s.first : `${s.first}–${s.last}`));
+      li.append(name, el("span", "n", plural(s.count, "talk")));
+      ul.append(li);
+    }
+  }
+
+  function render() {
+    const r = route();
+    document.getElementById("nav-talks").toggleAttribute("aria-current", r.view === "talks");
+    document.getElementById("nav-speakers").toggleAttribute("aria-current", r.view === "speakers");
+    q.placeholder = r.view === "speakers" ? "Search speakers…" : "Search titles, speakers, events…";
+    list.replaceChildren();
+    if (r.view === "speakers") renderSpeakers();
+    else renderTalks(r.speaker);
+  }
+
+  // One entry per person: how many talks, and the first and last year they spoke.
+  function buildSpeakers() {
+    const by = new Map();
+    for (const t of talks) {
+      const year = t.date.slice(0, 4);
+      for (const name of t.speakers) {
+        const s = by.get(name) || { name, key: name.toLowerCase(), count: 0, first: year, last: year };
+        s.count++;
+        if (year < s.first) s.first = year;
+        if (year > s.last) s.last = year;
+        by.set(name, s);
+      }
+    }
+    return [...by.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   }
 
   fetch("talks.json")
@@ -102,10 +202,12 @@
       talks = data
         .map(t => ({ ...t, _text: [t.title, t.event, ...t.speakers].join(" ").toLowerCase() }))
         .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+      speakers = buildSpeakers();
       render();
     })
     .catch(() => { count.textContent = "Couldn't load talks.json."; });
   q.addEventListener("input", render);
+  window.addEventListener("hashchange", () => { q.value = ""; render(); window.scrollTo(0, 0); });
 </script>
 </body>
 </html>

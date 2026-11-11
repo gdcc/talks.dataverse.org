@@ -111,7 +111,12 @@ Still open:
 
 ## Website
 
-`index.html` lists every talk in `talks.json`, newest first, with a search box. It's a static page, so it can be served as is, for example by GitHub Pages. To try it locally:
+`index.html` has two views of `talks.json`:
+
+- **Talks** (`#/`): every talk, newest first, with a search box.
+- **Speakers** (`#/speakers`): everyone who has given a talk, with how many and the years they spoke, most talks first. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
+
+Panels, posters and workshops count as talks for each person listed on them. It's a static page, so it can be served as is, for example by GitHub Pages. To try it locally:
 
 ```
 python3 -m http.server 8765
