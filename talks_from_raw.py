@@ -54,6 +54,24 @@ SKIP_FILES = {
     ("j4r2e", "/Jun12 - Thursday/1530 - Data Repository Track - Plankyte_DV2025.pdf"),
 }
 
+# One spelling per person, so a search for a name finds all of their talks.
+SPEAKER_ALIASES = {
+    "Jon Crabtree": "Jonathan Crabtree",
+    "Jen Doty": "Jennifer Doty",
+    "Stefano M. Iacus": "Stefano Iacus",
+    "Rene Faustino Gabriel Junior": "Rene Faustino Gabriel Júnior",
+    "Steve Kraffmiller": "Stephen Kraffmiller",
+    "Rory Macneil": "Rory MacNeil",
+    "Steven McEachern": "Steve McEachern",
+    "Courtney C. Mumma": "Courtney Mumma",
+    "James Myers": "Jim Myers",
+    "Seba Ostrowski": "Sebastian Ostrowski",
+    "Vaida Plankyte": "Vaida Plankytė",
+    "Pedro Principe": "Pedro Príncipe",
+    "Laura Vilela Rodrigues Rezende": "Laura Rezende",
+    "Slava Tykhonov": "Vyacheslav Tykhonov",
+}
+
 MONTHS = {m: i for i, m in enumerate(
     "jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
 
@@ -140,6 +158,8 @@ def main():
     extra = json.loads(Path("extra_talks.json").read_text())
     out = sorted([*talks(), *extra],
                  key=lambda t: (t["date"], t["source"], t.get("file_path", ""), t["title"]))
+    for t in out:
+        t["speakers"] = [SPEAKER_ALIASES.get(s, s) for s in t["speakers"]]
     json.dump(out, sys.stdout, indent=2, ensure_ascii=False)
     print()
 

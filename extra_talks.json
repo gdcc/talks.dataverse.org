@@ -453,5 +453,1098 @@
     "date_from": "checked",
     "confidence": "high",
     "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Panel Discussion: What do stakeholders need from common APIs and metadata from repositories?",
+    "speakers": [
+      "Kyle Cranmer",
+      "Anita de Waard",
+      "Neil Jefferies",
+      "Elizabeth Moss",
+      "August Muench",
+      "Piotr Sliz"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "panel",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop",
+    "notes": "Moderated by Sünje Dallmeier-Tiessen and Tim Clark. 5-minute remarks, no slides."
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Keynote: Libraries & Data",
+    "speakers": [
+      "Sarah E. Thomas"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/107",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "We are the Dataverse Community! (Update on Dataverse Part 1)",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/110",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Dataverse Outreach (Update on Dataverse Part 1)",
+    "speakers": [
+      "Sonia Barbosa",
+      "Elizabeth Quigley"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/111",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Structural Biology Data Grid Dataverse",
+    "speakers": [
+      "Piotr Sliz"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/118",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Libra Data: University of Virginia's Dataverse",
+    "speakers": [
+      "Sherry Lake"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/119",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "A Consortial Model for Research Data Services Using Dataverse",
+    "speakers": [
+      "Ryan Steans"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/130",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Title slide also names Kristi Park, Director, Texas Digital Library."
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Demonstrating Trustworthiness: The Odum Institute, the Dataverse, and the Data Seal of Approval",
+    "speakers": [
+      "Sophia Lafferty-Hess"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/125",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Management of a Dataverse Research Data Repository in Brazil",
+    "speakers": [
+      "Miguel Ángel Márdero Arellano"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/141",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Agenda: Miguel Angel Mardero, Coordinator, CARINIANA Network."
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Adopting Dataverse at the Qualitative Data Repository",
+    "speakers": [
+      "Sebastian Karcher",
+      "Nic Weber"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/120",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Documenting Statistical Research: What We Can Learn About it By Teaching About It",
+    "speakers": [
+      "Richard Ball"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/114",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "The Boston Area Research Initiative's Boston Data Portal: A Dataverse-Based Resource",
+    "speakers": [
+      "Dan O'Brien"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/127",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Using Mobile Health Tools to Improve Treatment of Viral Hemorrhagic Fevers in Resource-Constrained Settings",
+    "speakers": [
+      "Andres Colubri"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/116",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Biomedical Dataverse: Datasets from the NIH LINCS Project",
+    "speakers": [
+      "Caroline Shamu"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/121",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Using the Dataverse at the Center for the History of Medicine, Francis A. Countway Library of Medicine",
+    "speakers": [
+      "Emily Gustainis"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/123",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "The Replication and Verification Policy at the American Journal of Political Science",
+    "speakers": [
+      "William G. Jacoby"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/137",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Digaai (live demo)",
+    "speakers": [
+      "Alvaro Lima"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "medium",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda",
+    "notes": "Agenda lists a live demo with no title."
+  },
+  {
+    "date": "2016-07-11",
+    "title": "World Historical Dataverse",
+    "speakers": [
+      "David Ruvolo"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/117",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "medium",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Title slide has no text; title made from the agenda (Managing Editor, World Historical)."
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Fit for Purpose: Leveraging Dataverse to Meet PSI's Organizational Needs",
+    "speakers": [
+      "Dana Sievers"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/128",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Introduction and Use of Dataverse at Boston College",
+    "speakers": [
+      "Barbara Mento"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/126",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Antislavery Petitions MA Dataverse",
+    "speakers": [
+      "Garth Griffin"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/132",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "Harvard Subscription Data Dataverse",
+    "speakers": [
+      "Sonia Barbosa"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/115",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-11",
+    "title": "HBS Dataverse: Lessons from Our Rollout Year",
+    "speakers": [
+      "Alex Caracuzzo"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/133",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Keynote: Moving Research Forward With Persistent Identifiers and Services",
+    "speakers": [
+      "Patricia Cruse"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/140",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Dataverse Update Part 2",
+    "speakers": [
+      "Len Wisniewski",
+      "Gustavo Durand",
+      "Philip Durbin",
+      "Steve Kraffmiller"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/113",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Dataverse at Scholars Portal",
+    "speakers": [
+      "Alan Darnell"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/112",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Odum Institute iRODS Policies to Support Preservation",
+    "speakers": [
+      "Jonathan Crabtree"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/138",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Title slide also names Reagan Moore and Don Sizemore."
+  },
+  {
+    "date": "2016-07-12",
+    "title": "The Development of Data Repository of Fudan University in China",
+    "speakers": [
+      "Yin Shenqin"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/124",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "NDS Labs and Dataverse",
+    "speakers": [
+      "David Raila"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/109",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Dataverse in Germany: Research Data Management at Heidelberg University",
+    "speakers": [
+      "Jochen Apel"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/131",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "UiT Open Research Data and Our Experiences Using Dataverse",
+    "speakers": [
+      "Obiajulu Odu"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/135",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Title slide authors: Helene N. Andreassen, Philipp Conzett, Stein Høydalsvik, Leif Longva, Obiajulu Odu."
+  },
+  {
+    "date": "2016-07-12",
+    "title": "The BOP (Billion Object Platform) and WorldMap / Dataverse Integration",
+    "speakers": [
+      "Ben Lewis"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/139",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)",
+    "notes": "Title slide also names Mercè Crosas and Raman Prasad."
+  },
+  {
+    "date": "2016-07-12",
+    "title": "TwoRavens: A Tool for Statistical Analysis in the Classroom",
+    "speakers": [
+      "Vito D'Orazio",
+      "James Honaker"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/108",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda (title slide)"
+  },
+  {
+    "date": "2016-07-12",
+    "title": "Scientific Data Inside Scientific Articles: Authorea and Integration to Data Repositories",
+    "speakers": [
+      "Adyam Ghebre",
+      "Josh Nicholson"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2016",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/meeting-agenda"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Managing Privacy in Research Data Repositories: Welcome",
+    "speakers": [
+      "Salil Vadhan"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/144",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Panel Discussion on Privacy Risks",
+    "speakers": [
+      "George Church",
+      "Kobbi Nissim",
+      "Danny Weitzner",
+      "Danny Goroff"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "panel",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop",
+    "notes": "Moderated by Salil Vadhan."
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Data Handling Policies: Spaces, DataTags, and the Tags Language",
+    "speakers": [
+      "Michael Bar-Sinai"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/143",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Robot Lawyers: Automating Legal Compliance for Transferring Private Data",
+    "speakers": [
+      "Steve Chong"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/142",
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "PSI (Ψ): A Private data Sharing Interface",
+    "speakers": [
+      "James Honaker"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop",
+    "notes": "The agenda's slides link (files/dcm2016/files/honakerpsi.pdf) returns 404."
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Web-based Multi-Party Computation with Application to Anonymous Aggregate Compensation Analytics",
+    "speakers": [
+      "Azer Bestavros"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "A Software Architecture Proposal to Facilitate Privacy Auditing in a Confidential Data Enclave",
+    "speakers": [
+      "Cavan Capps"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "talk",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop"
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Panel Discussion on Managing Sensitive Data Use Cases",
+    "speakers": [
+      "Barbara Bierer",
+      "Kaye Marz",
+      "Simson Garfinkel"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2016",
+    "type": "panel",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "medium",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop",
+    "notes": "Moderated by David O'Brien. Agenda spells 'Barbara Brierer' (Faculty Co-Director, MRCT Center); the MRCT co-director is Barbara Bierer."
+  },
+  {
+    "date": "2016-07-13",
+    "title": "Panel Discussion on International Data Flows",
+    "speakers": [
+      "Deborah Hurley",
+      "Peter Doorn",
+      "David Heiner"
+    ],
+    "slides": "https://dcm2016.hsites.harvard.edu/file_url/145",
+    "source": "agenda:dcm2016",
+    "type": "panel",
+    "event": "Managing Privacy in Research Data Repositories (Dataverse Community Meeting 2016)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dcm2016.hsites.harvard.edu/privacy-workshop",
+    "notes": "Moderated by Deborah Hurley. The slides are David Heiner's."
+  },
+  {
+    "date": "2018-06-13",
+    "title": "Introducing the Global Dataverse Community Consortium",
+    "speakers": [
+      "Jonathan Crabtree",
+      "Mercè Crosas"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "workshop",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7yu"
+  },
+  {
+    "date": "2018-06-13",
+    "title": "UX & UI Collaborative 1: Integrating DataTags into Dataverse",
+    "speakers": [
+      "Mike Heppler",
+      "Derek Murphy",
+      "Tania Schlatter"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/ef/Slides%20-%20UX%20%26%20UI%20Part%201%20Community%202018.pdf",
+    "source": "agenda:dcm2018",
+    "type": "workshop",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F81v"
+  },
+  {
+    "date": "2018-06-13",
+    "title": "Dataverse and Curation Training for Librarians, and Curation Services",
+    "speakers": [
+      "Sonia Barbosa"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "workshop",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7yv"
+  },
+  {
+    "date": "2018-06-13",
+    "title": "Development: External Tools and Trusted Remote Storage Agents",
+    "speakers": [
+      "Gustavo Durand"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/5c/Slides%20-%20Developer%20Track%2C%20DCM%202018.pdf",
+    "source": "agenda:dcm2018",
+    "type": "workshop",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F954",
+    "notes": "Jonathan Crabtree joined to discuss Trusted Remote Storage Agents."
+  },
+  {
+    "date": "2018-06-13",
+    "title": "UX & UI Collaborative 2: Improving the Dataset Page, Downloading Sensitive Data, and File Hierarchy",
+    "speakers": [
+      "Tania Schlatter"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/c7/Slides%20-%20UX%20%26%20UI%20Part%202%20Community%202018.pdf",
+    "source": "agenda:dcm2018",
+    "type": "workshop",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7yw"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Welcome Address: Dataverse, Present and Future",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": "https://slides.com/mercecrosas/dataversecommunity2018/fullscreen#/",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F57u"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "New Additions to the Dataverse Community",
+    "speakers": [
+      "Sonia Barbosa",
+      "Danny Brooke"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/e3/Slides%20-%20New%20Additions%20to%20the%20Dataverse%20Community.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F57w"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Dataverse Product and Consortium Announcements",
+    "speakers": [
+      "Danny Brooke",
+      "Jonathan Crabtree"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/ad/Slides%20-%20Product%20and%20Consortium%20Updates.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F584"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Canadian Dataverse North",
+    "speakers": [
+      "Eugene Barsky",
+      "Amber Leahey",
+      "Erin MacPherson"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/5e/Slides-Dataverse%20North.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F61o",
+    "notes": "Sched spells the name 'Eugene Barksy'; his bio there says Barsky."
+  },
+  {
+    "date": "2018-06-14",
+    "title": "DataverseNO: A National and Generic Research Data Infrastructure and Service in Norway",
+    "speakers": [
+      "Obiajulu Odu"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/d6/Slides-DataverseNO.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F62B"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Inside-Out Impact of the Texas Data Repository",
+    "speakers": [
+      "Anna Dabrowski",
+      "Jessica Trelogan"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/3b/Slides-Texas%20Data%20Repository.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F64C"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "DataverseEU: Building Multilingual Infrastructure for the Social Sciences in Europe",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/c1/Slides-DataverseEU.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F64I"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "DataverseNL",
+    "speakers": [
+      "Paul Boon",
+      "Laura Huis in 't Veld"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/ff/Slides-DataverseNL.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F64K"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Connecting Dataverse with The Big Data Engine",
+    "speakers": [
+      "Yin Shenqin"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/8f/Slides%20-%20YinShenqin_ConnectingDataverseBigDataEngine.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F64S"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Keynote: A Global Research Data Platform",
+    "speakers": [
+      "Ian Foster"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F64s"
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Biomedical Dataverse: Structural Biology and Beyond (Meyer)",
+    "speakers": [
+      "Pete Meyer"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/83/Slides%20-%20Biomedical%20Dataverse%20Structural%20Biology%20and%20Beyond-Meyer.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7Vn",
+    "notes": "One of three decks for this session; Piotr Sliz also spoke."
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Biomedical Dataverse: Structural Biology and Beyond (Rawson)",
+    "speakers": [
+      "Shaun Rawson"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/50/Slides%20-%20Biomedical%20Dataverse%20Structural%20Biology%20And%20Beyond%20-%20Rawson.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7Vn",
+    "notes": "One of three decks for this session."
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Biomedical Dataverse: Structural Biology and Beyond (Rockowitz)",
+    "speakers": [
+      "Shira Rockowitz"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/d2/Slides%20-%20Biomedical%20Dataverse%20Structural%20Biology%20and%20Beyond%20-%20%20Rockowitz.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7Vn",
+    "notes": "One of three decks for this session."
+  },
+  {
+    "date": "2018-06-14",
+    "title": "Big Data Infrastructure Panel Discussion",
+    "speakers": [
+      "Ian Foster",
+      "Orran Krieger",
+      "Shira Rockowitz",
+      "Scott Yockel"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "panel",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7VV",
+    "notes": "Moderated by Pete Meyer."
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Keynote: Sharing Sensitive Data Widely: from OpenGov to Facebook",
+    "speakers": [
+      "Latanya Sweeney"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7cz"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "DataTags for Dataverse",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/66/Slides%20-%20DataTags%20for%20Dataverse.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dC"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Sensitive Data Panel",
+    "speakers": [
+      "Steve McEachern",
+      "Latanya Sweeney",
+      "Ara Tahmassian",
+      "Mayank Varia"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2018",
+    "type": "panel",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dL",
+    "notes": "Moderated by Mercè Crosas."
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Pilot Integration of an Electronic Lab Notebook and an Open Source Research Data Repository as Part of a Modular Biomedical Research Data Platform",
+    "speakers": [
+      "Harald Kusch",
+      "Rory MacNeil"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/33/ELN-Repository%20Integration%20at%20Goettingen.Dataverse2018.pptx",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dc"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Integrations for Dataverse and Empowering the Community",
+    "speakers": [
+      "Philip Durbin"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/d0/Slides%20-%20Integrations%20for%20Dataverse%20and%20Empowering%20the%20Community.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dk"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Updates to Support Request Access Workflows",
+    "speakers": [
+      "Steve McEachern"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/62/Slides%20-%20Updates%20to%20Support%20Request%20Access%20Workflows.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dq"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Bringing the Strong Protections of Differential Privacy to Dataverse with PSI(Ψ) (Part 1)",
+    "speakers": [
+      "Salil Vadhan"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/59/Slides%20-%20Bringing%20the%20strong%20Protections%20of%20Differential%20Privacy%20to%20DATAVERSE%20-%201.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "medium",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dv",
+    "notes": "Sched lists James Honaker and Salil P. Vadhan for the session; the abstract says part 1 covers differential privacy, so Vadhan is assumed."
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Bringing the Strong Protections of Differential Privacy to Dataverse with PSI(Ψ) (Part 2)",
+    "speakers": [
+      "James Honaker"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/b5/Slides%20-%20Bringing%20the%20strong%20Protections%20of%20Differential%20Privacy%20to%20DATAVERSE%20-%202.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "medium",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7dv",
+    "notes": "Part 2 introduces PSI, so Honaker is assumed."
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Support University Students' Data Driven Research in a National Contest with PKU Open Research Data Platform",
+    "speakers": [
+      "Pengcheng Luo"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/eb/Slides%20-%20Support%20University%20Students%E2%80%99%20Data%20Driven%20Research%20in%20a%20National%20Contest%20with%20PKU%20Open%20Research%20Data%20Platform--v0.3.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7eg"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Dataverse and Preservation in the Qualitative Data Repository",
+    "speakers": [
+      "Jim Myers"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/e9/Slides%20-%20Dataverse%20and%20Preservation%20in%20the%20Qualitative%20Data%20Repository.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7em"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "Dataverse on OpenShift/Kubernetes",
+    "speakers": [
+      "Dan McPherson"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/b2/Slides%20-%20Dataverse%20%2B%20OpenShift%252FKubernetes.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7eq"
+  },
+  {
+    "date": "2018-06-15",
+    "title": "A Metadata Generation Service for Dataverses",
+    "speakers": [
+      "Kripanshu Bhargava",
+      "Raman Prasad"
+    ],
+    "slides": "https://hosted-files.sched.co/dataversecommunitymeeting20/6d/Slides%20-%20Metadata%20Generation%20Service%20for%20Dataverse%20.pdf",
+    "source": "agenda:dcm2018",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2018",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting20.sched.com/event/F7et"
   }
 ]
