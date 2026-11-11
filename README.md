@@ -116,7 +116,17 @@ Still open:
 - **Talks** (`#/`): every talk, newest first, with a search box.
 - **Speakers** (`#/speakers`): everyone who has given a talk, with how many and the years they spoke, most talks first. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
 
-Panels, posters and workshops count as talks for each person listed on them. It's a static page, so it can be served as is, for example by GitHub Pages. To try it locally:
+Panels, posters and workshops count as talks for each person listed on them.
+
+### Linking speakers to Dataverse People
+
+Speakers who are on [people.dataverse.org](https://people.dataverse.org) show their GitHub username, linked to their page there (e.g. [@qqmyers](https://people.dataverse.org/qqmyers)). The links come from `people.json`, which `match_people.py` builds from a checkout of [gdcc/people.dataverse.org](https://github.com/gdcc/people.dataverse.org):
+
+```
+python3 match_people.py ~/github/gdcc/people.dataverse.org
+```
+
+A speaker is linked when their name matches a member's GitHub profile name, or a DataverseTV talk that lists the member's username. Matches that need a person to check go in `MANUAL` in `match_people.py`. The script prints speakers it couldn't match for sure, so they can be checked. Many frequent speakers aren't on people.dataverse.org yet, so they have no link. It's a static page, so it can be served as is, for example by GitHub Pages. To try it locally:
 
 ```
 python3 -m http.server 8765

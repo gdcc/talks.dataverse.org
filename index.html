@@ -55,13 +55,16 @@
   .meta a:hover { color: var(--link); }
   .filter { margin: 0 0 8px; }
   .filter strong { font-size: 1.2rem; }
-  li.speaker { grid-template-columns: 1fr auto; align-items: baseline; }
+  li.speaker { grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; }
+  .who { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
+  .who > .handle, .who > .years { margin-left: 0; }
   .n { font-variant-numeric: tabular-nums; font-weight: 600; }
   .years { color: var(--muted); font-size: 0.9rem; margin-left: 8px; white-space: nowrap; }
+  .handle { margin-left: 8px; font-size: 0.9rem; white-space: nowrap; }
   .n { white-space: nowrap; }
   @media (max-width: 520px) {
     li { grid-template-columns: 1fr; gap: 2px; }
-    li.speaker { grid-template-columns: 1fr auto; }
+    li.speaker { grid-template-columns: minmax(0, 1fr) auto; }
   }
 </style>
 </head>
@@ -85,6 +88,17 @@
   const q = document.getElementById("q");
   let talks = [];
   let speakers = [];
+  let people = {};  // speaker name -> GitHub username on people.dataverse.org
+
+  // "@username", linked to the person's page on people.dataverse.org.
+  function handle(name) {
+    const user = people[name];
+    if (!user) return "";
+    const a = el("a", "handle", "@" + user);
+    a.href = "https://people.dataverse.org/" + encodeURIComponent(user);
+    a.title = `${name} on Dataverse People`;
+    return a;
+  }
 
   function el(tag, cls, text) {
     const e = document.createElement(tag);
@@ -121,7 +135,7 @@
       pool = talks.filter(t => t.speakers.includes(speaker));
       const all = el("a", "", "All talks");
       all.href = "#/";
-      filter.replaceChildren(el("strong", "", speaker), " · ", plural(pool.length, "talk"), " · ", all);
+      filter.replaceChildren(el("strong", "", speaker), handle(speaker), " · ", plural(pool.length, "talk"), " · ", all);
     }
     const shown = pool.filter(t => matches(t._text));
     count.textContent = `${shown.length} of ${plural(pool.length, "talk")}`;
@@ -160,10 +174,10 @@
     const ul = list.appendChild(el("ul"));
     for (const s of shown) {
       const li = el("li", "speaker");
-      const name = el("div");
+      const name = el("div", "who");
       const a = el("a", "title", s.name);
       a.href = speakerHref(s.name);
-      name.append(a);
+      name.append(a, handle(s.name));
       name.append(el("span", "years", s.first === s.last ? s.first : `${s.first}–${s.last}`));
       li.append(name, el("span", "n", plural(s.count, "talk")));
       ul.append(li);
@@ -186,7 +200,8 @@
     for (const t of talks) {
       const year = t.date.slice(0, 4);
       for (const name of t.speakers) {
-        const s = by.get(name) || { name, key: name.toLowerCase(), count: 0, first: year, last: year };
+        const s = by.get(name) ||
+          { name, key: (name + " " + (people[name] || "")).toLowerCase(), count: 0, first: year, last: year };
         s.count++;
         if (year < s.first) s.first = year;
         if (year > s.last) s.last = year;
@@ -196,9 +211,14 @@
     return [...by.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   }
 
-  fetch("talks.json")
-    .then(r => r.json())
-    .then(data => {
+  // people.json is optional: without it, names just aren't linked.
+  const loadPeople = fetch("people.json")
+    .then(r => (r.ok ? r.json() : {}))
+    .catch(() => ({}))
+    .then(p => { people = p; });
+
+  Promise.all([fetch("talks.json").then(r => r.json()), loadPeople])
+    .then(([data]) => {
       talks = data
         .map(t => ({ ...t, _text: [t.title, t.event, ...t.speakers].join(" ").toLowerCase() }))
         .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
