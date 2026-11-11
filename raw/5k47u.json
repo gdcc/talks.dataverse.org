@@ -1,0 +1,801 @@
+[
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "2minutesVideo_dataverse2023.mp4",
+    "file_path": "/09_2minutes video dataverse installations/2minutesVideo_dataverse2023.mp4",
+    "file_date_created": "2023-06-14T11:21:13.348750Z",
+    "file_size": 1762040562,
+    "url": "https://osf.io/p8su5/",
+    "download": "https://osf.io/download/p8su5/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "00_Dataverse Community Meeting 2023.pdf",
+    "file_path": "/00_Opening Dataverse updates/00_Dataverse Community Meeting 2023.pdf",
+    "file_date_created": "2023-06-12T16:49:09.922029Z",
+    "file_size": 3446219,
+    "url": "https://osf.io/vwr9n/",
+    "download": "https://osf.io/download/vwr9n/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "02_MuseIT presentation for Dataverse.pdf",
+    "file_path": "/08_Lightning Talks session 3/02_MuseIT presentation for Dataverse.pdf",
+    "file_date_created": "2023-06-12T16:01:38.814935Z",
+    "file_size": 3673099,
+    "url": "https://osf.io/wdfeg/",
+    "download": "https://osf.io/download/wdfeg/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "01_Geospatial and high-dimensional data in Dataverse.pdf",
+    "file_path": "/08_Lightning Talks session 3/01_Geospatial and high-dimensional data in Dataverse.pdf",
+    "file_date_created": "2023-06-12T16:01:39.457039Z",
+    "file_size": 4452937,
+    "url": "https://osf.io/hwdnk/",
+    "download": "https://osf.io/download/hwdnk/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "03_Streamlining_Data_Sharing_in_Machine_Learning_with_Dataverse_and_Customized_metadata_LS.pdf",
+    "file_path": "/08_Lightning Talks session 3/03_Streamlining_Data_Sharing_in_Machine_Learning_with_Dataverse_and_Customized_metadata_LS.pdf",
+    "file_date_created": "2023-06-12T16:01:42.369538Z",
+    "file_size": 295431,
+    "url": "https://osf.io/qh6gf/",
+    "download": "https://osf.io/download/qh6gf/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "04_Data deposit model made by Arca Dados.pdf",
+    "file_path": "/08_Lightning Talks session 3/04_Data deposit model made by Arca Dados.pdf",
+    "file_date_created": "2023-06-12T16:01:44.266992Z",
+    "file_size": 2615905,
+    "url": "https://osf.io/76kg3/",
+    "download": "https://osf.io/download/76kg3/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "05_Artificial Intelligence (AI) and Controlled Vocabularies for Dataverse’s Information Retrieval Tasks.pdf",
+    "file_path": "/08_Lightning Talks session 3/05_Artificial Intelligence (AI) and Controlled Vocabularies for Dataverse’s Information Retrieval Tasks.pdf",
+    "file_date_created": "2023-06-12T16:01:46.110852Z",
+    "file_size": 776270,
+    "url": "https://osf.io/hdsq2/",
+    "download": "https://osf.io/download/hdsq2/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "06_Enhancing_research_software_archivability_SRoy_DCM2023.pdf",
+    "file_path": "/08_Lightning Talks session 3/06_Enhancing_research_software_archivability_SRoy_DCM2023.pdf",
+    "file_date_created": "2023-06-12T16:01:50.607040Z",
+    "file_size": 1053993,
+    "url": "https://osf.io/36qrf/",
+    "download": "https://osf.io/download/36qrf/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "07_Dataverse_roles_Dario_Basset.mp4",
+    "file_path": "/08_Lightning Talks session 3/07_Dataverse_roles_Dario_Basset.mp4",
+    "file_date_created": "2023-06-12T16:02:05.196899Z",
+    "file_size": 241197837,
+    "url": "https://osf.io/vzgf5/",
+    "download": "https://osf.io/download/vzgf5/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "02_DataRepositoriUM_CoreTrustSeal_PedroPrincipe.pdf",
+    "file_path": "/07_Lightning Talks session 2/02_DataRepositoriUM_CoreTrustSeal_PedroPrincipe.pdf",
+    "file_date_created": "2023-06-12T16:00:00.801581Z",
+    "file_size": 1940767,
+    "url": "https://osf.io/g5srb/",
+    "download": "https://osf.io/download/g5srb/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "01_2023-06-05_DCM_LinaHarper.pdf",
+    "file_path": "/07_Lightning Talks session 2/01_2023-06-05_DCM_LinaHarper.pdf",
+    "file_date_created": "2023-06-12T16:00:03.633438Z",
+    "file_size": 1222997,
+    "url": "https://osf.io/h743b/",
+    "download": "https://osf.io/download/h743b/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "04_Implementation of Brazilian Open Data Repositories.pdf",
+    "file_path": "/07_Lightning Talks session 2/04_Implementation of Brazilian Open Data Repositories.pdf",
+    "file_date_created": "2023-06-12T16:00:06.433338Z",
+    "file_size": 969665,
+    "url": "https://osf.io/xmj2s/",
+    "download": "https://osf.io/download/xmj2s/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "03_Polen Repository_An overview of the first steps.pdf",
+    "file_path": "/07_Lightning Talks session 2/03_Polen Repository_An overview of the first steps.pdf",
+    "file_date_created": "2023-06-12T16:00:07.140474Z",
+    "file_size": 1455042,
+    "url": "https://osf.io/aezrx/",
+    "download": "https://osf.io/download/aezrx/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "05_CUHK Research Data Repository.pdf",
+    "file_path": "/07_Lightning Talks session 2/05_CUHK Research Data Repository.pdf",
+    "file_date_created": "2023-06-12T16:00:13.219015Z",
+    "file_size": 5412072,
+    "url": "https://osf.io/jxtq5/",
+    "download": "https://osf.io/download/jxtq5/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "06_Linking publications datasets connecting institutional literature data repository.pdf",
+    "file_path": "/07_Lightning Talks session 2/06_Linking publications datasets connecting institutional literature data repository.pdf",
+    "file_date_created": "2023-06-12T16:00:13.428597Z",
+    "file_size": 979962,
+    "url": "https://osf.io/szkf4/",
+    "download": "https://osf.io/download/szkf4/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "07_Facilitating Dataverse Internationalization_ Best Practices and Suggestions.pdf",
+    "file_path": "/07_Lightning Talks session 2/07_Facilitating Dataverse Internationalization_ Best Practices and Suggestions.pdf",
+    "file_date_created": "2023-06-12T16:00:19.978338Z",
+    "file_size": 3594834,
+    "url": "https://osf.io/cewg4/",
+    "download": "https://osf.io/download/cewg4/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "08_BuildingResearchCommunity_FreddySumba.mp4",
+    "file_path": "/07_Lightning Talks session 2/08_BuildingResearchCommunity_FreddySumba.mp4",
+    "file_date_created": "2023-06-12T16:00:22.507334Z",
+    "file_size": 91467419,
+    "url": "https://osf.io/479ar/",
+    "download": "https://osf.io/download/479ar/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "01_PhilippConzett_DCM23_Sustainable_Architecture_Options_for_Dataverse_INTRODUCTION.pdf",
+    "file_path": "/06_Panel Sustainable Architecture Options for Dataverse/01_PhilippConzett_DCM23_Sustainable_Architecture_Options_for_Dataverse_INTRODUCTION.pdf",
+    "file_date_created": "2023-06-14T11:14:57.594348Z",
+    "file_size": 760567,
+    "url": "https://osf.io/qyc8e/",
+    "download": "https://osf.io/download/qyc8e/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "05_RoryMacneil_Rearchitecting_Dataverse_Reflections_from_a_friend.pdf",
+    "file_path": "/06_Panel Sustainable Architecture Options for Dataverse/05_RoryMacneil_Rearchitecting_Dataverse_Reflections_from_a_friend.pdf",
+    "file_date_created": "2023-06-14T11:14:59.286523Z",
+    "file_size": 64454,
+    "url": "https://osf.io/26qh8/",
+    "download": "https://osf.io/download/26qh8/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "1_DataverseCom2023VLubitch.pdf",
+    "file_path": "/05_Panel Dataverse National regional Initiatives building sustainable networks communities of practice/1_DataverseCom2023VLubitch.pdf",
+    "file_date_created": "2023-06-12T15:51:30.617920Z",
+    "file_size": 1654315,
+    "url": "https://osf.io/mjgtd/",
+    "download": "https://osf.io/download/mjgtd/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "2_DataverseCommunity_2023_RechercheDataGouv.pdf",
+    "file_path": "/05_Panel Dataverse National regional Initiatives building sustainable networks communities of practice/2_DataverseCommunity_2023_RechercheDataGouv.pdf",
+    "file_date_created": "2023-06-12T15:51:30.637325Z",
+    "file_size": 1623885,
+    "url": "https://osf.io/gj2mh/",
+    "download": "https://osf.io/download/gj2mh/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "3_DataverseMeeting-Brasil.pdf",
+    "file_path": "/05_Panel Dataverse National regional Initiatives building sustainable networks communities of practice/3_DataverseMeeting-Brasil.pdf",
+    "file_date_created": "2023-06-12T15:51:36.464114Z",
+    "file_size": 1045221,
+    "url": "https://osf.io/5k47u/files/osfstorage/64873f0884f52c0039fe5828",
+    "download": "https://osf.io/download/64873f0884f52c0039fe5828/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "4_DataverseECienciaDatosSustainableNetworks.pdf",
+    "file_path": "/05_Panel Dataverse National regional Initiatives building sustainable networks communities of practice/4_DataverseECienciaDatosSustainableNetworks.pdf",
+    "file_date_created": "2023-06-12T15:51:40.686966Z",
+    "file_size": 767886,
+    "url": "https://osf.io/qfn3v/",
+    "download": "https://osf.io/download/qfn3v/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "Dataverse_Community_Meeting_DEMOSsession.pdf",
+    "file_path": "/04_Demo Session/Dataverse_Community_Meeting_DEMOSsession.pdf",
+    "file_date_created": "2023-06-12T15:48:45.400468Z",
+    "file_size": 4236976,
+    "url": "https://osf.io/7xjtw/",
+    "download": "https://osf.io/download/7xjtw/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "2023DataversseCommunity-MerceCrosas.pdf",
+    "file_path": "/03_Keynote/2023DataversseCommunity-MerceCrosas.pdf",
+    "file_date_created": "2023-06-12T15:44:46.851424Z",
+    "file_size": 6586644,
+    "url": "https://osf.io/7td2z/",
+    "download": "https://osf.io/download/7td2z/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "05_Lightning_Talk_1 Really Big Data_DCM_2023.pdf",
+    "file_path": "/02_Lightning Talks_session 1/05_Lightning_Talk_1 Really Big Data_DCM_2023.pdf",
+    "file_date_created": "2023-06-12T15:41:43.198001Z",
+    "file_size": 318774,
+    "url": "https://osf.io/278sm/",
+    "download": "https://osf.io/download/278sm/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "01 Lightning Talk QDR_OIDC_DCM_2023.pdf",
+    "file_path": "/02_Lightning Talks_session 1/01 Lightning Talk QDR_OIDC_DCM_2023.pdf",
+    "file_date_created": "2023-06-12T15:41:43.248544Z",
+    "file_size": 692299,
+    "url": "https://osf.io/zwf5e/",
+    "download": "https://osf.io/download/zwf5e/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "04_Lightning_Talk - Now Museum Dataverse Meeting.pdf",
+    "file_path": "/02_Lightning Talks_session 1/04_Lightning_Talk - Now Museum Dataverse Meeting.pdf",
+    "file_date_created": "2023-06-12T15:41:48.796420Z",
+    "file_size": 14155793,
+    "url": "https://osf.io/zgf3b/",
+    "download": "https://osf.io/download/zgf3b/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "03_Lightning_Talk - CLARIAH integrations of Dataverse.pdf",
+    "file_path": "/02_Lightning Talks_session 1/03_Lightning_Talk - CLARIAH integrations of Dataverse.pdf",
+    "file_date_created": "2023-06-12T15:41:50.322788Z",
+    "file_size": 2369443,
+    "url": "https://osf.io/2vn9r/",
+    "download": "https://osf.io/download/2vn9r/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "02_Lightning talk - Looking up how to improve authors and related publications input (KU Leuven RDR).pdf",
+    "file_path": "/02_Lightning Talks_session 1/02_Lightning talk - Looking up how to improve authors and related publications input (KU Leuven RDR).pdf",
+    "file_date_created": "2023-06-12T15:41:50.338136Z",
+    "file_size": 1053655,
+    "url": "https://osf.io/yhkbp/",
+    "download": "https://osf.io/download/yhkbp/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "06_Cloud_Migration_of_DataverseNO.pdf",
+    "file_path": "/02_Lightning Talks_session 1/06_Cloud_Migration_of_DataverseNO.pdf",
+    "file_date_created": "2023-06-12T15:41:51.244694Z",
+    "file_size": 322054,
+    "url": "https://osf.io/s8zet/",
+    "download": "https://osf.io/download/s8zet/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "07_kaczmirek_etal2023_visualsearch.mp4",
+    "file_path": "/02_Lightning Talks_session 1/07_kaczmirek_etal2023_visualsearch.mp4",
+    "file_date_created": "2023-06-12T15:41:55.223267Z",
+    "file_size": 26489215,
+    "url": "https://osf.io/54j6t/",
+    "download": "https://osf.io/download/54j6t/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "01_UpVerse_Plakat.pdf",
+    "file_path": "/01_Poster Session/01_UpVerse_Plakat.pdf",
+    "file_date_created": "2023-06-12T15:33:46.178587Z",
+    "file_size": 3169201,
+    "url": "https://osf.io/x5t9a/",
+    "download": "https://osf.io/download/x5t9a/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "04_poster-KULeuven-RDR-Road_to_RDR-A1.pdf",
+    "file_path": "/01_Poster Session/04_poster-KULeuven-RDR-Road_to_RDR-A1.pdf",
+    "file_date_created": "2023-06-12T15:33:47.306789Z",
+    "file_size": 283309,
+    "url": "https://osf.io/2ax56/",
+    "download": "https://osf.io/download/2ax56/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "03_poster-KULeuven-RDR-Dataset_Claimer-A1.pdf",
+    "file_path": "/01_Poster Session/03_poster-KULeuven-RDR-Dataset_Claimer-A1.pdf",
+    "file_date_created": "2023-06-12T15:33:47.325022Z",
+    "file_size": 104872,
+    "url": "https://osf.io/gc4x3/",
+    "download": "https://osf.io/download/gc4x3/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "05_dunas.pdf",
+    "file_path": "/01_Poster Session/05_dunas.pdf",
+    "file_date_created": "2023-06-12T15:33:47.339726Z",
+    "file_size": 419233,
+    "url": "https://osf.io/x52ar/",
+    "download": "https://osf.io/download/x52ar/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "02_CHAYA Nada_dcm23 poster_Ref 2023040557000165.pdf",
+    "file_path": "/01_Poster Session/02_CHAYA Nada_dcm23 poster_Ref 2023040557000165.pdf",
+    "file_date_created": "2023-06-12T15:33:47.577277Z",
+    "file_size": 353765,
+    "url": "https://osf.io/jdfk8/",
+    "download": "https://osf.io/download/jdfk8/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "06_PosterHenonKhrouz.pdf",
+    "file_path": "/01_Poster Session/06_PosterHenonKhrouz.pdf",
+    "file_date_created": "2023-06-12T15:33:53.621927Z",
+    "file_size": 862549,
+    "url": "https://osf.io/m4ec5/",
+    "download": "https://osf.io/download/m4ec5/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "08_global_dataverse_meeting_2023_LS.pdf",
+    "file_path": "/01_Poster Session/08_global_dataverse_meeting_2023_LS.pdf",
+    "file_date_created": "2023-06-12T15:33:55.167288Z",
+    "file_size": 489942,
+    "url": "https://osf.io/dzn2v/",
+    "download": "https://osf.io/download/dzn2v/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "09_sensitive_dataverse_portrait.pdf",
+    "file_path": "/01_Poster Session/09_sensitive_dataverse_portrait.pdf",
+    "file_date_created": "2023-06-12T15:33:55.173982Z",
+    "file_size": 592138,
+    "url": "https://osf.io/85pny/",
+    "download": "https://osf.io/download/85pny/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "07_POSTER-2023041457000102.pdf",
+    "file_path": "/01_Poster Session/07_POSTER-2023041457000102.pdf",
+    "file_date_created": "2023-06-12T15:33:55.198259Z",
+    "file_size": 6908156,
+    "url": "https://osf.io/q8ta6/",
+    "download": "https://osf.io/download/q8ta6/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "10_DANS.jpg",
+    "file_path": "/01_Poster Session/10_DANS.jpg",
+    "file_date_created": "2023-06-12T15:33:56.576991Z",
+    "file_size": 1263577,
+    "url": "https://osf.io/gv6x9/",
+    "download": "https://osf.io/download/gv6x9/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "11_poster-hd-a1.pdf",
+    "file_path": "/01_Poster Session/11_poster-hd-a1.pdf",
+    "file_date_created": "2023-06-12T15:33:58.242443Z",
+    "file_size": 1334871,
+    "url": "https://osf.io/qy5mk/",
+    "download": "https://osf.io/download/qy5mk/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "13_SJ_HealthDataRepository_finalv2.pdf",
+    "file_path": "/01_Poster Session/13_SJ_HealthDataRepository_finalv2.pdf",
+    "file_date_created": "2023-06-12T15:34:00.699262Z",
+    "file_size": 1513700,
+    "url": "https://osf.io/6w5ye/",
+    "download": "https://osf.io/download/6w5ye/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "14_DCM_2023_Poster.pdf",
+    "file_path": "/01_Poster Session/14_DCM_2023_Poster.pdf",
+    "file_date_created": "2023-06-12T15:34:00.731324Z",
+    "file_size": 612278,
+    "url": "https://osf.io/b3fvc/",
+    "download": "https://osf.io/download/b3fvc/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "12_DCM-poster-ViPLab.pdf",
+    "file_path": "/01_Poster Session/12_DCM-poster-ViPLab.pdf",
+    "file_date_created": "2023-06-12T15:34:01.787858Z",
+    "file_size": 7246224,
+    "url": "https://osf.io/ecnyu/",
+    "download": "https://osf.io/download/ecnyu/"
+  },
+  {
+    "node_id": "5k47u",
+    "node_path": [
+      "Dataverse Community Meeting 2023 | Presentations &amp; Recordings"
+    ],
+    "node_description": "All the resources from the Dataverse Community Meeting 2023 held in Portugal, Braga at the University of Minho, 5-7 June 2023",
+    "node_date_created": "2023-06-09T16:42:15.760613",
+    "contributors": [
+      "Paula Moura"
+    ],
+    "file_name": "15_DataRepUM.png",
+    "file_path": "/01_Poster Session/15_DataRepUM.png",
+    "file_date_created": "2023-06-12T15:34:03.885940Z",
+    "file_size": 1818562,
+    "url": "https://osf.io/jtxy8/",
+    "download": "https://osf.io/download/jtxy8/"
+  }
+]
