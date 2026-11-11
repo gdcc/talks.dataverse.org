@@ -6,7 +6,7 @@ For each talk we want the date, the title, the speaker names, and a link to the 
 
 ## Status
 
-Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 351 records (talks and posters) from these OSF projects:
+Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 345 records (330 talks and 15 posters) from these OSF projects:
 
 | OSF ID | Event |
 |---|---|
@@ -74,16 +74,40 @@ It keeps slides (PDF, PowerPoint, HTML) and skips recordings, photos and other f
 
 It also adds `type` (`talk` or `poster`), `event`, `file_path` (where the file sits on OSF), and `date_from`, which says where the date came from:
 
+- `checked`: from `curation.json` (see below)
 - `file`: a date in the file name
 - `folder`: a day in the OSF folder name
-- `event`: no day was found, so it's the event's first day and still needs checking against the agenda
+- `event`: no day was found, so it's the event's first day
 
 Upload dates aren't used, because some years were uploaded months after the meeting.
 
-Still to do:
+## Curation
 
-- `speakers` is empty everywhere. OSF only records who uploaded the files, so speakers need to come from file names or meeting agendas.
-- Titles are cleaned-up file names. Many still have the speaker's name in them, or aren't the real talk title.
+OSF doesn't say who gave a talk, so speakers, real titles and dates were checked by hand against meeting agendas (live or on the Wayback Machine), DataverseTV, and the title slides of the PDFs. The results are in `curation.json`, keyed by `source` and `file_path`, and `talks_from_raw.py` applies them over what it works out from OSF. Each entry has a `confidence` (`high`, `medium` or `low`), the `evidence` used, and `notes` for anything odd.
+
+To add or fix entries, edit `curation.json` directly, or merge a JSON array of entries in the same shape:
+
+```
+python3 merge_curation.py new-entries.json
+python3 talks_from_raw.py > talks.json
+```
+
+Files that aren't talks (a panel proposal, a speaker bio, duplicate uploads) are listed in `SKIP_FILES` in `talks_from_raw.py`.
+
+Still open:
+
+- Six talks have no speakers: five 2017 developer workshop sessions credited only to "Dataverse Team", and the 2023 demo session's intro slides.
+- The 2025 agenda is gone (it was on Cvent), so 2025 speakers and titles come from title slides and are listed in the order printed there.
+
+## Website
+
+`index.html` lists every talk in `talks.json`, newest first, with a search box. It's a static page, so it can be served as is, for example by GitHub Pages. To try it locally:
+
+```
+python3 -m http.server 8765
+```
+
+and open http://localhost:8765.
 
 ## Contributing
 

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dataverse Talks</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #656d76; --line: #d8dee4;
+    --link: #0969da; --chip: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --fg: #e6edf3; --muted: #8d96a0; --line: #30363d;
+      --link: #4493f8; --chip: #161b22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 900px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { margin: 0 0 4px; font-size: 1.8rem; }
+  .intro { margin: 0 0 20px; color: var(--muted); }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  input[type=search] {
+    width: 100%; padding: 10px 12px; font: inherit; color: var(--fg);
+    background: var(--chip); border: 1px solid var(--line); border-radius: 8px;
+  }
+  .count { margin: 8px 0 24px; color: var(--muted); font-size: 0.9rem; }
+  h2 {
+    margin: 32px 0 0; padding-bottom: 4px; font-size: 1.2rem;
+    border-bottom: 1px solid var(--line);
+  }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { display: grid; grid-template-columns: 6.5em 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .date { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .title { font-weight: 600; }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .tag {
+    display: inline-block; margin-left: 6px; padding: 0 6px; font-size: 0.75rem;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--chip);
+    vertical-align: middle; font-weight: normal; color: var(--muted);
+  }
+  @media (max-width: 520px) {
+    li { grid-template-columns: 1fr; gap: 2px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dataverse Talks</h1>
+  <p class="intro">Talks about <a href="https://dataverse.org">Dataverse</a>, newest first. Recordings are on <a href="https://github.com/IQSS/dataverse-tv">DataverseTV</a>. Missing a talk? <a href="https://github.com/gdcc/talks.dataverse.org">Let us know</a>.</p>
+  <input type="search" id="q" placeholder="Search titles, speakers, events…" aria-label="Search talks">
+  <p class="count" id="count">Loading…</p>
+  <div id="list"></div>
+</main>
+<script>
+  const list = document.getElementById("list");
+  const count = document.getElementById("count");
+  const q = document.getElementById("q");
+  let talks = [];
+
+  function el(tag, cls, text) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text) e.textContent = text;
+    return e;
+  }
+
+  function render() {
+    const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    const shown = talks.filter(t => words.every(w => t._text.includes(w)));
+    count.textContent = `${shown.length} of ${talks.length} talks`;
+    list.replaceChildren();
+    let year, ul;
+    for (const t of shown) {
+      if (t.date.slice(0, 4) !== year) {
+        year = t.date.slice(0, 4);
+        list.append(el("h2", "", year));
+        ul = list.appendChild(el("ul"));
+      }
+      const li = el("li");
+      li.append(el("span", "date", t.date));
+      const body = el("div");
+      const title = el("a", "title", t.title);
+      title.href = t.slides;
+      body.append(title);
+      if (t.type === "poster") body.append(el("span", "tag", "poster"));
+      const meta = [t.speakers.join(", "), t.event].filter(Boolean).join(" · ");
+      body.append(el("div", "meta", meta));
+      li.append(body);
+      ul.append(li);
+    }
+  }
+
+  fetch("talks.json")
+    .then(r => r.json())
+    .then(data => {
+      talks = data
+        .map(t => ({ ...t, _text: [t.title, t.event, ...t.speakers].join(" ").toLowerCase() }))
+        .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+      render();
+    })
+    .catch(() => { count.textContent = "Couldn't load talks.json."; });
+  q.addEventListener("input", render);
+</script>
+</body>
+</html>

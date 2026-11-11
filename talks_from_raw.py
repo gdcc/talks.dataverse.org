@@ -30,7 +30,7 @@ PROJECTS = {
     "95ycg": ("Dataverse Community Meeting 2024", "2024-03-04"),
     "j4r2e": ("Dataverse Community Meeting 2025", "2025-06-10"),
     "awbjp": ("Dataverse Community Meeting 2026", "2026-05-12"),
-    "wpixk": ("Research Transparency through Data Sharing", "2014-06-13"),
+    "wpixk": ("BITSS 2014 Summer Institute", "2014-06-02"),
 }
 
 # Files that hold slides. Everything else (recordings, photos, notes) is skipped.
@@ -45,6 +45,13 @@ SKIP_FILES = {
     ("wpixk", "/Ten_Simple_Rules_for_the_Care_and_Feeding_of_Scientific_Data.pdf"),
     ("e5n3h", "/OSF-Definitions.pptx"),
     ("j4r2e", "/DCM2025Agenda_PresentationChecklist.pdf"),
+    ("ke9gc", "/Using Dataverse across the Globe.pdf"),  # panel proposal
+    ("95ycg", "/March 6, Wednesday/9-30-Snapp-bio.pdf"),  # speaker bio
+    # Duplicate uploads of the same talk; the other copy is kept.
+    ("awbjp", "/DCM2026 - Fairvault -ThomasThomas.pdf"),
+    ("awbjp", "/Dataverse Community Meeting 2026.pdf"),
+    ("j4r2e", "/Jun10 - Tuesday Workshops/1515 - 2025DCM_GREI UPDATES_SoniaBarbosa.pdf"),
+    ("j4r2e", "/Jun12 - Thursday/1530 - Data Repository Track - Plankyte_DV2025.pdf"),
 }
 
 MONTHS = {m: i for i, m in enumerate(
@@ -86,7 +93,16 @@ def clean_title(name):
     return t
 
 
+def load_curation(path="curation.json"):
+    """Return hand-checked fixes keyed by (source, file_path)."""
+    p = Path(path)
+    if not p.exists():
+        return {}
+    return {(c["source"], c["file_path"]): c for c in json.loads(p.read_text())}
+
+
 def talks():
+    curation = load_curation()
     for osf_id, (event, start) in PROJECTS.items():
         for r in json.loads(Path("raw", f"{osf_id}.json").read_text()):
             ext = r["file_name"].rsplit(".", 1)[-1].lower()
@@ -94,7 +110,7 @@ def talks():
                 continue
             date, how = file_date(r["file_path"], start)
             poster = "poster" in r["file_path"].lower()
-            yield {
+            talk = {
                 "date": date,
                 "title": clean_title(r["file_name"]),
                 "speakers": [],
@@ -105,6 +121,18 @@ def talks():
                 "date_from": how,
                 "file_path": r["file_path"],
             }
+            fix = curation.get((talk["source"], talk["file_path"]))
+            if fix:
+                if fix.get("skip"):
+                    continue
+                for key in ("title", "speakers", "event", "type"):
+                    if fix.get(key):
+                        talk[key] = fix[key]
+                if fix.get("date"):
+                    talk["date"], talk["date_from"] = fix["date"], "checked"
+                talk["confidence"] = fix.get("confidence", "")
+                talk["evidence"] = fix.get("evidence", "")
+            yield talk
 
 
 def main():
