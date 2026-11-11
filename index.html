@@ -85,8 +85,8 @@
       const li = el("li");
       li.append(el("span", "date", t.date));
       const body = el("div");
-      const title = el("a", "title", t.title);
-      title.href = t.slides;
+      const title = el(t.slides ? "a" : "span", "title", t.title);
+      if (t.slides) title.href = t.slides;
       body.append(title);
       if (t.type === "poster") body.append(el("span", "tag", "poster"));
       const meta = [t.speakers.join(", "), t.event].filter(Boolean).join(" · ");

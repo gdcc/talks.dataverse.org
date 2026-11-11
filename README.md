@@ -6,7 +6,7 @@ For each talk we want the date, the title, the speaker names, and a link to the 
 
 ## Status
 
-Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 345 records (330 talks and 15 posters) from these OSF projects:
+Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 377 records (362 talks and 15 posters). Most come from these OSF projects:
 
 | OSF ID | Event |
 |---|---|
@@ -22,7 +22,9 @@ Early days. We are starting with talks whose slides were uploaded to [OSF](https
 | [awbjp](https://osf.io/awbjp/) | Dataverse Community Meeting 2026 |
 | [wpixk](https://osf.io/wpixk/) | Mercè Crosas, 2014 (one talk) |
 
-There's no OSF project for the 2018 community meeting. OSF is freezing soon: existing talks stay there, but new talks can't be added, so slides for new talks will go somewhere else (probably a [Zenodo](https://zenodo.org) community).
+There's no OSF project for the 2015, 2016 or 2018 community meetings. Talks for those come from the meeting agendas and are kept by hand in `extra_talks.json` (see below). So far that covers 2015, from the [2015 agenda](https://dataversecommunitymeeting.hsites.harvard.edu/agenda) and [pre-meeting workshop](https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop).
+
+OSF is freezing soon: existing talks stay there, but new talks can't be added, so slides for new talks will go somewhere else (probably a [Zenodo](https://zenodo.org) community).
 
 ## Getting talks from OSF
 
@@ -92,11 +94,14 @@ python3 merge_curation.py new-entries.json
 python3 talks_from_raw.py > talks.json
 ```
 
+Talks that aren't on OSF go in `extra_talks.json`, already in the final talk format, with `slides` set to a link (e.g. SlideShare) or `null` when there are no slides. `talks_from_raw.py` adds them to `talks.json`.
+
 Files that aren't talks (a panel proposal, a speaker bio, duplicate uploads) are listed in `SKIP_FILES` in `talks_from_raw.py`.
 
 Still open:
 
 - Six talks have no speakers: five 2017 developer workshop sessions credited only to "Dataverse Team", and the 2023 demo session's intro slides.
+- 2016 and 2018 aren't in yet. Their agendas should be at https://projects.iq.harvard.edu/dcm2016 and https://projects.iq.harvard.edu/dcm2018.
 - The 2025 agenda is gone (it was on Cvent), so 2025 speakers and titles come from title slides and are listed in the order printed there.
 
 ## Website

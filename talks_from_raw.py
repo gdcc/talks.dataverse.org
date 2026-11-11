@@ -136,7 +136,10 @@ def talks():
 
 
 def main():
-    out = sorted(talks(), key=lambda t: (t["date"], t["source"], t["file_path"]))
+    # Talks that aren't on OSF, taken by hand from agendas. `slides` may be null.
+    extra = json.loads(Path("extra_talks.json").read_text())
+    out = sorted([*talks(), *extra],
+                 key=lambda t: (t["date"], t["source"], t.get("file_path", ""), t["title"]))
     json.dump(out, sys.stdout, indent=2, ensure_ascii=False)
     print()
 

@@ -15,6 +15,461 @@
     "evidence": "title slide; https://www.bitss.org/events/bitss-2014-summer-institute/; https://dataverse.org/resource/bitss-mercecrosas-june4pdf"
   },
   {
+    "date": "2015-06-09",
+    "title": "Common Data Publishing Workflows",
+    "speakers": [
+      "Sünje Dallmeier-Tiessen"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Data Citation Implementation Guidelines",
+    "speakers": [
+      "Tim Clark"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Including Data in the Standardized Markup for Journal Articles (NISO JATS)",
+    "speakers": [
+      "Deborah A. Lapeyre"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Metadata Profiles for Repositories: the Meta-Metadata",
+    "speakers": [
+      "Mark Wilkinson"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Persistent Identifier Services and Their Metadata",
+    "speakers": [
+      "John Kunze"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Towards a Common Deposit API (the Dataverse example)",
+    "speakers": [
+      "Elizabeth Quigley",
+      "Philip Durbin"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Common Models and APIs for Data Publishing and Citation Workshop (Dataverse Community Meeting 2015)",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "American Journal of Political Science",
+    "speakers": [
+      "Sophia Lafferty-Hess"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Building Community & Dataverse",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Contributing code to Dataverse",
+    "speakers": [
+      "Gustavo Durand"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Data in Brief Dataverse",
+    "speakers": [
+      "Paige Shaklee"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Dataverse Internationalization",
+    "speakers": [
+      "Yin Shenqin",
+      "Zhang Jilong"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Introduction to Dataverse 4.0 / Where We Are",
+    "speakers": [
+      "Elizabeth Quigley"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/dataverse-40-ux-by-elizabeth-quigley",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Keynote: Dataverse in the Universe of Data",
+    "speakers": [
+      "Christine Borgman"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/borgman-dataverseharvard20150610",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Metadata & Data Curation Services",
+    "speakers": [
+      "Thu-Mai Christian"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/christian-dataverse2015",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Political Analysis Dataverse",
+    "speakers": [
+      "Jonathan Katz"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Preservation Tools: Integration with Archivematica",
+    "speakers": [
+      "Leanne Trimble",
+      "Allan Bell"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/bell-trimble-dataverse-community-meeting-2015-final-presentation",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-10",
+    "title": "Welcome/Introduction",
+    "speakers": [
+      "Gary King",
+      "Mercè Crosas"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Astronomy Data in Dataverse",
+    "speakers": [
+      "August Muench"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Big Data Repository for Structural Biology: Challenges and Opportunities",
+    "speakers": [
+      "Piotr Sliz"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/sliz-2015-dataverse-sb-griddb",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Data Exploration & Analysis: TwoRavens",
+    "speakers": [
+      "Vito D'Orazio",
+      "James Honaker"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/tworavens-slides",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Data Visualization with Plotly",
+    "speakers": [
+      "Alex Johnson"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/acj-dataverse-community",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Data analysis in Dataverse & visualization of datasets on historical maps",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/tykhonov-data-analysis-in-dataverse-visualization-of-datasets-on-historical-maps",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "DataTags Survey Application",
+    "speakers": [
+      "Michael Bar-Sinai"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "DataverseNL",
+    "speakers": [
+      "Ben Companjen"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Geospatial Data Visualization: WorldMap Integration",
+    "speakers": [
+      "Raman Prasad"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/prasad-worldmap",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "International Food Policy Research Institute (IFPRI) Dataverse",
+    "speakers": [
+      "Nilam Prasai"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "MIT Libraries Dataverse",
+    "speakers": [
+      "Katherine McNeill"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Open Science Framework Dataverse Add-On",
+    "speakers": [
+      "Sherry Lake"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/lake-cos-overview-shl",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Project TIER Dataverse",
+    "speakers": [
+      "Richard Ball",
+      "Norm Medeiros"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Sharing Privacy Sensitive Data: DataTags (Vision)",
+    "speakers": [
+      "Latanya Sweeney"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "Storage Systems: Integration with iRODS",
+    "speakers": [
+      "Jonathan Crabtree"
+    ],
+    "slides": "https://www.slideshare.net/datascienceiqss/crabtree-odum-dataverseusersgroup2015boston",
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
+    "date": "2015-06-11",
+    "title": "UiT Open Research Data",
+    "speakers": [
+      "Obiajulu Odu",
+      "Philipp Conzett"
+    ],
+    "slides": null,
+    "source": "agenda:dcm2015",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2015",
+    "date_from": "checked",
+    "confidence": "high",
+    "evidence": "https://dataversecommunitymeeting.hsites.harvard.edu/agenda"
+  },
+  {
     "date": "2017-06-14",
     "title": "Dataverse APIs (Development Workshop breakout)",
     "speakers": [],
