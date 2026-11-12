@@ -154,6 +154,7 @@
     "type": "talk",
     "event": "",
     "date_from": "checked",
+    "slides_download": "https://scholar.harvard.edu/files/mercecrosas/files/openscience-keynote-mercecrosas.pdf",
     "event_url": "https://www.swissuniversities.ch/en/themen/digitalisierung/p-5-wissenschaftliche-information/programm-open-science/swiss-open-science-action-plan-kick-off-forum",
     "video": "https://tube.switch.ch/cast/videos/b54fd89f-f58d-4c66-b0fc-9fcfd3740313"
   },
@@ -609,6 +610,7 @@
     "type": "talk",
     "event": "",
     "date_from": "checked",
+    "slides_download": "https://docs.google.com/presentation/d/16Wh_mmlF6DBh2a9JqbCaVxg_0PuydFWfe_XaB7AA89Q/export/pdf",
     "video": "https://drive.google.com/file/d/163meDdiPpx7GtVYo0ue44iaypbAt4Pxf"
   },
   {
@@ -933,6 +935,7 @@
     "type": "tutorial",
     "event": "",
     "date_from": "checked",
+    "slides_download": "https://dataverse.org/sites/projects.iq.harvard.edu/files/introduction_to_metadata_in_dataverse_repositories_for_installation_administrators.pdf",
     "video": "https://www.youtube.com/watch?v=GgPI9X6Q7sI"
   },
   {
@@ -986,6 +989,7 @@
     "type": "talk",
     "event": "",
     "date_from": "checked",
+    "slides_download": "https://dataverse.org/sites/projects.iq.harvard.edu/files/dataverseorg/files/dataverse_retention_slides.pdf",
     "video": "https://drive.google.com/file/d/19S-_8l6Ad8ciG2RQPFAwvKAEQfWWPr7C/view?usp=drive_link"
   },
   {

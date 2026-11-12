@@ -116,6 +116,9 @@ def main():
                 "event": "",
                 "date_from": "checked",
             }
+            download = row.get("Slides download URL", "")
+            if download and download != talk["slides"]:
+                talk["slides_download"] = download
             if row.get("Conference landing page"):
                 talk["event_url"] = row["Conference landing page"]
             if row.get("YouTube ID"):

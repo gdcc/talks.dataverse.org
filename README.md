@@ -122,11 +122,40 @@ Still open:
 - Six talks have no speakers: five 2017 developer workshop sessions credited only to "Dataverse Team", and the 2023 demo session's intro slides.
 - The 2025 agenda is gone (it was on Cvent), so 2025 speakers and titles come from title slides and are listed in the order printed there.
 
+## Thumbnails
+
+Talks show a small image of their first slide when the slides could be downloaded. Making them takes three steps:
+
+```
+python3 fetch_slides.py
+python3 make_thumbnails.py
+python3 talks_from_raw.py > talks.json
+```
+
+1. `fetch_slides.py` downloads the slides of every OSF and DataverseTV talk in `talks.json` into `cache/`, which is gitignored, skipping files already there.
+   - **OSF:** it uses the download link that `osf_inventory.py` records for each file and keeps a file only if its size matches OSF's record.
+   - **DataverseTV:** slides are on many sites. It tries DataverseTV's own download link, then a direct download worked out from the link (Google Slides, Docs and Drive, Dropbox, Seafile, Nextcloud, OSF, Zenodo, or a link straight to a PDF), then the one PDF or PowerPoint file a landing page links to. A download is kept only if it's really a PDF or PowerPoint file. It lists the talks whose slides it couldn't get.
+
+   Files are named the way `cache_name()` in `talks_from_raw.py` gives: `cache/osf/<osf id>.pdf`, `cache/osf/<project>-<file id>.pdf` for OSF files without a short ID, and `cache/web/<hash>.pdf` for everything else, where the hash is from the slides link.
+2. `make_thumbnails.py` writes a 560-pixel-wide WebP image of each file's first page to `thumbs/`, which is committed. That's sharp at the size the site shows them, at about 12 KB each (about 5 MB for 394). It skips images that already exist at that width, so changing `WIDTH` in the script remakes them all.
+3. Regenerating `talks.json` adds a `thumb` field to every talk that has a thumbnail.
+
+`make_thumbnails.py` needs `pdftoppm` (from Poppler) and Pillow. PowerPoint files are rendered with macOS Quick Look.
+
+So far 394 talks have thumbnails:
+
+- **OSF:** 344 of 345. The one without has an HTML page for slides.
+- **DataverseTV:** 50 of 96. The others couldn't be downloaded:
+  - their links are dead (most old dataverse.org presentation pages, one deleted Google Slides deck)
+  - the site blocks scripts (scholar.harvard.edu, datascience.nih.gov, Canva, dataverse.lv and a few more)
+  - or the link isn't to a file (Google Groups posts, GitHub, SlideShare, YouTube, DSpace pages at TDL)
+- **Agenda talks:** the 2015, 2016 and 2018 talks have no thumbnails yet.
+
 ## Website
 
 `index.html` has two views of `talks.json`:
 
-- **Talks** (`#/`): every talk, newest first, with a search box.
+- **Talks** (`#/`): every talk, newest first, as a grid of cards per year, with a search box. Each card leads with the first slide, linked to the slides; talks without a thumbnail show their title in its place.
 - **Speakers** (`#/speakers`): everyone who has given a talk, with how many and the years they spoke, most talks first. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
 
 Panels, posters and workshops count as talks for each person listed on them.

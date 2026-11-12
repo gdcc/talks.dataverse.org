@@ -62,8 +62,36 @@
   .years { color: var(--muted); font-size: 0.9rem; margin-left: 8px; white-space: nowrap; }
   .handle { margin-left: 8px; font-size: 0.9rem; white-space: nowrap; }
   .n { white-space: nowrap; }
+  /* Talks: a grid of cards per year, first-slide image on top. */
+  main.wide { max-width: 1180px; }
+  ul.cards {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 28px 20px; padding-top: 16px;
+  }
+  li.talk { display: flex; flex-direction: column; gap: 8px; padding: 0; border: 0; min-width: 0; }
+  .thumb {
+    display: block; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--chip);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  a.thumb:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); }
+  .thumb img {
+    display: block; width: 100%; height: 100%;
+    object-fit: cover; object-position: top; /* 4:3 slides and posters show their top */
+  }
+  .thumb.placeholder {
+    display: flex; align-items: center; justify-content: center; padding: 16px;
+    text-align: center; color: var(--muted); font-size: 0.95rem; line-height: 1.3;
+  }
+  .thumb.placeholder span {
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  li.talk .title { font-size: 1.02rem; line-height: 1.35; }
+  li.talk .meta { line-height: 1.4; }
+  li.talk .when { font-variant-numeric: tabular-nums; margin-top: 2px; }
   @media (max-width: 520px) {
     li { grid-template-columns: 1fr; gap: 2px; }
+    ul.cards { grid-template-columns: 1fr; gap: 24px; }
     li.speaker { grid-template-columns: minmax(0, 1fr) auto; }
   }
 </style>
@@ -139,37 +167,65 @@
     }
     const shown = pool.filter(t => matches(t._text));
     count.textContent = `${shown.length} of ${plural(pool.length, "talk")}`;
-    let year, ul;
+    // A person's talks go in one grid; the full list is split by year.
+    let year, ul = speaker ? list.appendChild(el("ul", "cards")) : null;
     for (const t of shown) {
-      if (t.date.slice(0, 4) !== year) {
+      if (!speaker && t.date.slice(0, 4) !== year) {
         year = t.date.slice(0, 4);
         list.append(el("h2", "", year));
-        ul = list.appendChild(el("ul"));
+        ul = list.appendChild(el("ul", "cards"));
       }
-      const li = el("li");
-      li.append(el("span", "date", t.date));
-      const body = el("div");
-      const title = el(t.slides ? "a" : "span", "title", t.title);
-      if (t.slides) title.href = t.slides;
-      body.append(title);
-      if (t.type && t.type !== "talk") body.append(el("span", "tag", t.type));
-      const meta = el("div", "meta");
-      t.speakers.forEach((s, i) => {
-        if (i) meta.append(", ");
-        const a = el("a", "", s);
-        a.href = speakerHref(s);
-        meta.append(a);
-      });
-      if (t.event) meta.append(t.speakers.length ? " · " : "", t.event);
-      if (t.video) {
-        const v = el("a", "", "📺 video");
-        v.href = t.video;
-        meta.append(meta.childNodes.length ? " · " : "", v);
-      }
-      body.append(meta);
-      li.append(body);
-      ul.append(li);
+      ul.append(card(t));
     }
+  }
+
+  // One talk: first-slide image on top, then title, date and event, speakers.
+  function card(t) {
+    const li = el("li", "talk");
+
+    // The thumbnail, or a placeholder showing the title, linked to the slides.
+    const thumb = el(t.slides ? "a" : "div", "thumb");
+    if (t.slides) {
+      thumb.href = t.slides;
+      thumb.setAttribute("aria-hidden", "true");
+      thumb.tabIndex = -1;
+    }
+    if (t.thumb) {
+      const img = el("img");
+      img.src = t.thumb;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      thumb.append(img);
+    } else {
+      thumb.classList.add("placeholder");
+      thumb.append(el("span", "", t.title));
+    }
+    li.append(thumb);
+
+    const body = el("div", "body");
+    const title = el(t.slides ? "a" : "span", "title", t.title);
+    if (t.slides) title.href = t.slides;
+    body.append(title);
+    if (t.type && t.type !== "talk") body.append(el("span", "tag", t.type));
+
+    body.append(el("div", "meta when", [t.date, t.event].filter(Boolean).join(" · ")));
+
+    const who = el("div", "meta");
+    t.speakers.forEach((s, i) => {
+      if (i) who.append(", ");
+      const a = el("a", "", s);
+      a.href = speakerHref(s);
+      who.append(a);
+    });
+    if (t.video) {
+      const v = el("a", "", "📺 video");
+      v.href = t.video;
+      who.append(who.childNodes.length ? " · " : "", v);
+    }
+    if (who.childNodes.length) body.append(who);
+    li.append(body);
+    return li;
   }
 
   function renderSpeakers() {
@@ -195,6 +251,8 @@
     document.getElementById("nav-speakers").toggleAttribute("aria-current", r.view === "speakers");
     q.placeholder = r.view === "speakers" ? "Search speakers…" : "Search titles, speakers, events…";
     list.replaceChildren();
+    // The talk cards use a wider page than the speaker list.
+    document.querySelector("main").classList.toggle("wide", r.view === "talks");
     if (r.view === "speakers") renderSpeakers();
     else renderTalks(r.speaker);
   }

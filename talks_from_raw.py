@@ -11,6 +11,7 @@ Titles are cleaned-up file names and are a first draft. Speakers are left
 empty: OSF only tells us who uploaded the files, not who gave the talk.
 """
 
+import hashlib
 import json
 import re
 import sys
@@ -155,6 +156,20 @@ def talks():
             yield talk
 
 
+def cache_name(slides_url):
+    """Where a talk's slides go in cache/ (and its thumbnail in thumbs/), without
+    the extension: "osf/7w8rz", or "osf/<project>-<file id>" for OSF files that
+    have no short ID. Slides anywhere else are "web/" plus the first 12
+    characters of the SHA-1 of the slides link. None when there's no link."""
+    if not slides_url:
+        return None
+    m = (re.match(r"https?://osf\.io/([a-z0-9]{5})/?$", slides_url)
+         or re.match(r"https://osf\.io/([a-z0-9]{5})/files/osfstorage/([0-9a-f]+)", slides_url))
+    if m:
+        return "osf/" + "-".join(m.groups())
+    return "web/" + hashlib.sha1(slides_url.encode()).hexdigest()[:12]
+
+
 def main():
     # Talks that aren't on OSF, taken by hand from agendas. `slides` may be null.
     extra = json.loads(Path("extra_talks.json").read_text())
@@ -166,6 +181,10 @@ def main():
                  key=lambda t: (t["date"], t["source"], t.get("file_path", ""), t["title"]))
     for t in out:
         t["speakers"] = [SPEAKER_ALIASES.get(s, s) for s in t["speakers"]]
+        # First-slide image from make_thumbnails.py, if there is one.
+        name = cache_name(t.get("slides"))
+        if name and Path("thumbs", name + ".webp").exists():
+            t["thumb"] = f"thumbs/{name}.webp"
     json.dump(out, sys.stdout, indent=2, ensure_ascii=False)
     print()
 
