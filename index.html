@@ -55,9 +55,19 @@
   .meta a:hover { color: var(--link); }
   .filter { margin: 0 0 8px; }
   .filter strong { font-size: 1.2rem; }
-  li.speaker { grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; }
+  li.speaker { grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; column-gap: 14px; }
+  .avatar {
+    width: 48px; height: 48px; border-radius: 50%; object-fit: cover;
+    background: var(--chip); border: 1px solid var(--line);
+  }
+  .avatar.initials {
+    display: flex; align-items: center; justify-content: center; border: 0;
+    color: #fff; font-weight: 600; font-size: 1.05rem; letter-spacing: 0.02em;
+  }
   .who { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
   .who > .handle, .who > .years { margin-left: 0; }
+  .who { min-width: 0; }
+  .who > .handle { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
   .n { font-variant-numeric: tabular-nums; font-weight: 600; }
   .years { color: var(--muted); font-size: 0.9rem; margin-left: 8px; white-space: nowrap; }
   .handle { margin-left: 8px; font-size: 0.9rem; white-space: nowrap; }
@@ -92,7 +102,7 @@
   @media (max-width: 520px) {
     li { grid-template-columns: 1fr; gap: 2px; }
     ul.cards { grid-template-columns: 1fr; gap: 24px; }
-    li.speaker { grid-template-columns: minmax(0, 1fr) auto; }
+    li.speaker { grid-template-columns: 48px minmax(0, 1fr) auto; }
   }
 </style>
 </head>
@@ -235,6 +245,7 @@
     const ul = list.appendChild(el("ul"));
     for (const s of shown) {
       const li = el("li", "speaker");
+      li.append(avatar(s.name));
       const name = el("div", "who");
       const a = el("a", "title", s.name);
       a.href = speakerHref(s.name);
@@ -243,6 +254,35 @@
       li.append(name, el("span", "n", plural(s.count, "talk")));
       ul.append(li);
     }
+  }
+
+  // GitHub profile picture for people on Dataverse People, loaded live;
+  // otherwise (or if it fails to load) a circle with their initials.
+  function avatar(name) {
+    const user = people[name];
+    if (!user) return initials(name);
+    const img = el("img", "avatar");
+    img.src = `https://github.com/${encodeURIComponent(user)}.png?size=96`;
+    img.alt = "";
+    img.width = img.height = 48;
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.addEventListener("error", () => img.replaceWith(initials(name)), { once: true });
+    return img;
+  }
+
+  function initials(name) {
+    const words = name.replace(/\(.*?\)/g, "").split(/\s+/).filter(w => /^\p{L}/u.test(w));
+    const letters = words.length > 1
+      ? words[0][0] + words[words.length - 1][0]
+      : (words[0] || "?").slice(0, 2);
+    // The same name always gets the same color.
+    let hash = 0;
+    for (const c of name) hash = (hash * 31 + c.codePointAt(0)) >>> 0;
+    const div = el("div", "avatar initials", letters.toUpperCase());
+    div.style.background = `hsl(${hash % 360} 45% 42%)`;
+    div.setAttribute("aria-hidden", "true");
+    return div;
   }
 
   function render() {

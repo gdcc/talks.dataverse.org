@@ -156,7 +156,7 @@ So far 394 talks have thumbnails:
 `index.html` has two views of `talks.json`:
 
 - **Talks** (`#/`): every talk, newest first, as a grid of cards per year, with a search box. Each card leads with the first slide, linked to the slides; talks without a thumbnail show their title in its place.
-- **Speakers** (`#/speakers`): everyone who has given a talk, with how many and the years they spoke, most talks first. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
+- **Speakers** (`#/speakers`): everyone who has given a talk, with a picture, how many talks and the years they spoke, most talks first. Speakers linked to Dataverse People show their GitHub profile picture, loaded live from GitHub; everyone else, or anyone whose picture doesn't load, gets a circle with their initials in a color worked out from their name. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
 
 Panels, posters and workshops count as talks for each person listed on them.
 
