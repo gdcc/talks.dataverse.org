@@ -54,6 +54,12 @@ def parse_date(s):
         return None
 
 
+def same_link(a, b):
+    """True if two links point to the same page, ignoring extra query parameters
+    after the first one (e.g. YouTube's &t=)."""
+    return a.split("&")[0].rstrip("/") == b.split("&")[0].rstrip("/")
+
+
 def split_speakers(s):
     """'A (Org), B and C, et al.' -> ['A', 'B', 'C']"""
     s = re.sub(r"\([^)]*\)", "", s)
@@ -125,6 +131,9 @@ def main():
                 talk["video"] = "https://www.youtube.com/watch?v=" + row["YouTube ID"]
             elif row.get("Non-YouTube landing page"):
                 talk["video"] = row["Non-YouTube landing page"]
+            # A "slides" link that's really the recording means there are no slides.
+            if talk.get("video") and same_link(talk["slides"], talk["video"]):
+                talk["slides"] = None
             out.append(talk)
 
     out.sort(key=lambda t: (t["date"], t["title"]))

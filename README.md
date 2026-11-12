@@ -158,6 +158,14 @@ So far 394 talks have thumbnails:
 - **Talks** (`#/`): every talk, newest first, as a grid of cards per year, with a search box. Each card leads with the first slide, linked to the slides; talks without a thumbnail show their title in its place.
 - **Speakers** (`#/speakers`): everyone who has given a talk, with a picture, how many talks and the years they spoke, most talks first. Speakers linked to Dataverse People show their GitHub profile picture, loaded live from GitHub; everyone else, or anyone whose picture doesn't load, gets a circle with their initials in a color worked out from their name. Clicking a name, here or under a talk, shows that person's talks (`#/speaker/<name>`).
 
+Talks without slides aren't shown on the website, and don't count toward anyone's total. They stay in `talks.json` with `"slides": null`, so nothing is lost. To see which ones are hidden:
+
+```
+python3 hidden_talks.py
+```
+
+It lists them by year and says where to add each one's slides link: `extra_talks.json` for talks from agendas, or the DataverseTV spreadsheet for DataverseTV talks. Once a talk has a slides link and `talks.json` is regenerated, it shows up on the site. A DataverseTV "slides" link that's just the recording counts as no slides.
+
 Panels, posters and workshops count as talks for each person listed on them.
 
 ### Linking speakers to Dataverse People

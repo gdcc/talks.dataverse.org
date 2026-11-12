@@ -328,7 +328,10 @@
 
   Promise.all([fetch("talks.json").then(r => r.json()), loadPeople])
     .then(([data]) => {
+      // Talks without slides stay in talks.json but aren't shown
+      // (hidden_talks.py lists them). They appear once a slides link is added.
       talks = data
+        .filter(t => t.slides)
         .map(t => ({ ...t, _text: [t.title, t.event, ...t.speakers].join(" ").toLowerCase() }))
         .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
       speakers = buildSpeakers();
