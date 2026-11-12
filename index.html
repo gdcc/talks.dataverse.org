@@ -53,7 +53,9 @@
   nav a[aria-current] { color: var(--fg); border-bottom-color: var(--link); font-weight: 600; }
   .meta a { color: inherit; }
   .meta a:hover { color: var(--link); }
-  .filter { margin: 0 0 8px; }
+  .filter { margin: 0 0 12px; display: flex; align-items: center; gap: 14px; }
+  .filter[hidden] { display: none; }
+  .avatar.large { width: 64px; height: 64px; flex: none; font-size: 1.35rem; }
   .filter strong { font-size: 1.2rem; }
   li.speaker { grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; column-gap: 14px; }
   .avatar {
@@ -173,7 +175,11 @@
       pool = talks.filter(t => t.speakers.includes(speaker));
       const all = el("a", "", "All talks");
       all.href = "#/";
-      filter.replaceChildren(el("strong", "", speaker), handle(speaker), " · ", plural(pool.length, "talk"), " · ", all);
+      const pic = avatar(speaker);
+      pic.classList.add("large");
+      const text = el("div");
+      text.append(el("strong", "", speaker), handle(speaker), " · ", plural(pool.length, "talk"), " · ", all);
+      filter.replaceChildren(pic, text);
     }
     const shown = pool.filter(t => matches(t._text));
     count.textContent = `${shown.length} of ${plural(pool.length, "talk")}`;
