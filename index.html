@@ -161,6 +161,11 @@
         meta.append(a);
       });
       if (t.event) meta.append(t.speakers.length ? " · " : "", t.event);
+      if (t.video) {
+        const v = el("a", "", "📺 video");
+        v.href = t.video;
+        meta.append(meta.childNodes.length ? " · " : "", v);
+      }
       body.append(meta);
       li.append(body);
       ul.append(li);

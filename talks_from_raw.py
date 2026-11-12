@@ -70,6 +70,8 @@ SPEAKER_ALIASES = {
     "Pedro Principe": "Pedro Príncipe",
     "Laura Vilela Rodrigues Rezende": "Laura Rezende",
     "Slava Tykhonov": "Vyacheslav Tykhonov",
+    "Amber Leahy": "Amber Leahey",
+    "Laura Huis in ‘t Veld": "Laura Huis in 't Veld",
 }
 
 MONTHS = {m: i for i, m in enumerate(
@@ -156,6 +158,10 @@ def talks():
 def main():
     # Talks that aren't on OSF, taken by hand from agendas. `slides` may be null.
     extra = json.loads(Path("extra_talks.json").read_text())
+    # DataverseTV talks with slides, from dataversetv_talks.py.
+    dtv = Path("dataversetv_talks.json")
+    if dtv.exists():
+        extra += json.loads(dtv.read_text())
     out = sorted([*talks(), *extra],
                  key=lambda t: (t["date"], t["source"], t.get("file_path", ""), t["title"]))
     for t in out:

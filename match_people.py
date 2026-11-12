@@ -46,6 +46,7 @@ MANUAL = {
     "Thu-Mai Christian": "tlchristian",
     "Vaida Plankytė": "vaidap",
     "Vaidas Morkevičius": "vaidasmo",
+    "Yijia Qi": "jennaqi2001",
     "Zacarias Benta": "zbenta",
     # Two members have this GitHub name (josekarvalho, j-n-c); not linked.
     "José Carvalho": None,
@@ -91,8 +92,8 @@ def main():
 
     with open(data / "dataversetv.tsv", newline="") as f:
         for row in csv.DictReader(f, delimiter="\t"):
-            users = [u.strip() for u in row["GitHub username"].split(",") if u.strip()]
-            names = [s.strip() for s in row["Speakers"].split(",") if s.strip()]
+            users = [u.strip() for u in (row["GitHub username"] or "").split(",") if u.strip()]
+            names = [s.strip() for s in (row["Speakers"] or "").split(",") if s.strip()]
             for u in users:
                 user = by_lower.get(u.lower())
                 if not user:

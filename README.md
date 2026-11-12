@@ -6,7 +6,7 @@ For each talk we want the date, the title, the speaker names, and a link to the 
 
 ## Status
 
-Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 451 records: 425 talks, 15 posters, 6 panels and 5 workshops, from 2014 to 2026. Most come from these OSF projects:
+Early days. We are starting with talks whose slides were uploaded to [OSF](https://osf.io). `talks.json` has 547 records: 499 talks, 22 tutorials, 15 posters, 6 panels and 5 workshops, from 2014 to 2026. They come from OSF, meeting agendas and DataverseTV. Most come from these OSF projects:
 
 | OSF ID | Event |
 |---|---|
@@ -27,6 +27,8 @@ There's no OSF project for the 2015, 2016 or 2018 community meetings. Talks for 
 - 2015: the [agenda](https://dataversecommunitymeeting.hsites.harvard.edu/agenda) and [pre-meeting workshop](https://dataversecommunitymeeting.hsites.harvard.edu/premeeting-workshop). Slides are on SlideShare where they exist.
 - 2016: the [agenda](https://dcm2016.hsites.harvard.edu/meeting-agenda) and [privacy workshop](https://dcm2016.hsites.harvard.edu/privacy-workshop). Slides are on the meeting site; titles come from the title slides, since the agenda only lists speakers.
 - 2018: the [Sched agenda](https://dataversecommunitymeeting20.sched.com/list/descriptions/), which also hosts the slides.
+
+Talks that were recorded for [DataverseTV](https://github.com/IQSS/dataverse-tv) and have slides are included too: community calls, webinars, tutorials and talks at other events. They're in `dataversetv_talks.json` (see below).
 
 OSF is freezing soon: existing talks stay there, but new talks can't be added, so slides for new talks will go somewhere else (probably a [Zenodo](https://zenodo.org) community).
 
@@ -78,7 +80,7 @@ It keeps slides (PDF, PowerPoint, HTML) and skips recordings, photos and other f
 }
 ```
 
-It also adds `type` (`talk`, `poster`, `panel` or `workshop`), `event`, `file_path` (where the file sits on OSF), and `date_from`, which says where the date came from:
+It also adds `type` (`talk`, `tutorial`, `poster`, `panel` or `workshop`), `event`, `file_path` (where the file sits on OSF), and `date_from`, which says where the date came from:
 
 - `checked`: from `curation.json` (see below)
 - `file`: a date in the file name
@@ -101,6 +103,17 @@ python3 talks_from_raw.py > talks.json
 Talks that aren't on OSF go in `extra_talks.json`, already in the final talk format, with `slides` set to a link (e.g. SlideShare) or `null` when there are no slides. `talks_from_raw.py` adds them to `talks.json`.
 
 Some people's names are spelled differently from year to year. `SPEAKER_ALIASES` in `talks_from_raw.py` maps each variant to one spelling, so a search finds all of a person's talks.
+
+### DataverseTV
+
+`dataversetv_talks.py` reads the DataverseTV spreadsheet, as cached in a [people.dataverse.org](https://github.com/gdcc/people.dataverse.org) checkout, and writes `dataversetv_talks.json`. It contains every DataverseTV talk with a slides link that isn't already listed:
+
+```
+python3 dataversetv_talks.py ~/github/gdcc/people.dataverse.org/data/dataversetv.tsv
+python3 talks_from_raw.py > talks.json
+```
+
+A DataverseTV talk counts as already listed when its slides are the same OSF file, or when a listed talk is within 4 days and shares a speaker or has a very similar title. Recordings of whole 2020 and 2021 meeting sessions are skipped, since their "slides" link is just the agenda page. These talks have a `video` link, and their `event` is empty because DataverseTV doesn't record it.
 
 Files that aren't talks (a panel proposal, a speaker bio, duplicate uploads) are listed in `SKIP_FILES` in `talks_from_raw.py`.
 

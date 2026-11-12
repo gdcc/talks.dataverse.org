@@ -1,0 +1,1301 @@
+[
+  {
+    "date": "2018-04-29",
+    "title": "Dataverse and Spark",
+    "speakers": [
+      "Sami Shahin"
+    ],
+    "slides": "https://github.com/dataverse-broker/dataverse-broker",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=6G86wwgJHnc"
+  },
+  {
+    "date": "2018-04-29",
+    "title": "Scaling Dataverse",
+    "speakers": [
+      "Patrick Dillon"
+    ],
+    "slides": "https://github.com/BU-NU-CLOUD-SP18/Dataverse-Scaling",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1NbKWdY00BFY2c2Sgly4pxs1oPVbfsvas/view"
+  },
+  {
+    "date": "2018-09-04",
+    "title": "Texas Data Repository - A Year in Review",
+    "speakers": [
+      "Kristi Park"
+    ],
+    "slides": "https://tdl-ir.tdl.org/handle/2249.1/156305",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=FB6TmQa88A4"
+  },
+  {
+    "date": "2018-09-13",
+    "title": "Reproducibility and Dataverse",
+    "speakers": [
+      "Philip Durbin"
+    ],
+    "slides": "https://www.slideshare.net/philipdurbin/reproducibility-and-dataverse",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=SuyQTsOGugc"
+  },
+  {
+    "date": "2018-11-13",
+    "title": "Topics in Research Data Management #1",
+    "speakers": [
+      "Amber Leahey"
+    ],
+    "slides": "https://tdl-ir.tdl.org/handle/2249.1/156310",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=yQ8ajC2FAKk"
+  },
+  {
+    "date": "2019-01-22",
+    "title": "Topics in Research Data Management #2",
+    "speakers": [
+      "Sherry Lake"
+    ],
+    "slides": "https://tdl-ir.tdl.org/handle/2249.1/156338",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=_CTNF88G_WQ"
+  },
+  {
+    "date": "2019-02-12",
+    "title": "Topics in Research Data Management #3",
+    "speakers": [
+      "Eric Kaltman"
+    ],
+    "slides": "http://hdl.handle.net/2249.1/156340",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=mwwisrH2YBk"
+  },
+  {
+    "date": "2019-03-19",
+    "title": "Topics in Research Data Management #4",
+    "speakers": [
+      "Amy Nurnberger"
+    ],
+    "slides": "https://tdl-ir.tdl.org/handle/2249.1/156344",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=7ekgsIALWfE"
+  },
+  {
+    "date": "2019-04-23",
+    "title": "Topics in Research Data Management #5",
+    "speakers": [
+      "Jonathan Crabtree"
+    ],
+    "slides": "https://tdl-ir.tdl.org/handle/2249.1/156346",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=MKsrsV6KWsQ"
+  },
+  {
+    "date": "2019-10-08",
+    "title": "Building reproducible workflows for earth sciences - Responding to reproducibility challenges from physics to social sciences",
+    "speakers": [
+      "Ana Trisovic"
+    ],
+    "slides": "https://events.ecmwf.int/event/116/contributions/937/attachments/239/432/Repwork-WS-Trisovic.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://vimeo.com/366217811"
+  },
+  {
+    "date": "2019-10-08",
+    "title": "Developing, Packing, and Sharing Reproducible Research Objects: The Whole Tale Approach",
+    "speakers": [
+      "Bertram Ludäscher",
+      "Craig Willis"
+    ],
+    "slides": "https://www.dataone.org/sites/default/files/sites/all/documents/dataone-wt-webinar-2019-10-08.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.dataone.org/webinars/developing-packaging-and-sharing-reproducible-research-objects-whole-tale-approach"
+  },
+  {
+    "date": "2019-10-17",
+    "title": "Recommendations for Implementing Open Science",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": "https://scholar.harvard.edu/mercecrosas/presentations/recommendations-implementing-open-science",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "event_url": "https://www.swissuniversities.ch/en/themen/digitalisierung/p-5-wissenschaftliche-information/programm-open-science/swiss-open-science-action-plan-kick-off-forum",
+    "video": "https://tube.switch.ch/cast/videos/b54fd89f-f58d-4c66-b0fc-9fcfd3740313"
+  },
+  {
+    "date": "2019-11-22",
+    "title": "Research Data Curation, Management, Sharing and Archiving",
+    "speakers": [
+      "Jonathan Crabtree"
+    ],
+    "slides": "https://forumgdi.rcaap.pt/wp-content/uploads/2019/11/Keynote_5ForumGDI.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "event_url": "http://forumgdi.rcaap.pt/5forum/5programa/",
+    "video": "https://www.youtube.com/watch?v=xqEOFY8BV-0"
+  },
+  {
+    "date": "2020-02-02",
+    "title": "Advancing science with Dataverse",
+    "speakers": [
+      "Philip Durbin"
+    ],
+    "slides": "https://fosdem.org/2020/schedule/event/dataverse/",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=yjJUTIOfFMo"
+  },
+  {
+    "date": "2020-02-11",
+    "title": "Dataverse: A Software, a Community, a Network of Repositories",
+    "speakers": [
+      "Mercè Crosas"
+    ],
+    "slides": "https://scholar.harvard.edu/mercecrosas/presentations/dataverse-software-community-network-repositories",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://videocast.nih.gov/summary.asp?live=35855&bhcp=1"
+  },
+  {
+    "date": "2020-02-14",
+    "title": "The Dataverse Data Curation Tool",
+    "speakers": [
+      "Kaitlin Newson"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1cvOBDgnP0k4PGhumoCbbasQzTLX1H-mAFR2F3C3MOaU/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1uzRyWPFbNLfE3VmqcP3Nt_wTEPJoi5Td/view?usp=drive_link"
+  },
+  {
+    "date": "2021-05-25",
+    "title": "SSHOC - Dataverse Translation Workshop",
+    "speakers": [
+      "Marion Wittenberg",
+      "Laura Huis in 't Veld",
+      "Veronika Heider"
+    ],
+    "slides": "https://sshopencloud.eu/news/sshoc-workshop-notes-sshoc-dataverse-translation-workshop",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=WiIxney3ORU"
+  },
+  {
+    "date": "2021-09-23",
+    "title": "Using OpenDP Library in Applications: DP Creator with Dataverse Integration",
+    "speakers": [
+      "Raman Prasad",
+      "Ellen Kraffmiller",
+      "Ethan Cowan"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1E1xJ0Y_Bt19Lvwc7QcjFIYfXOxq0531l4vGWPvu8B_U",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=0vfqPZcpi90"
+  },
+  {
+    "date": "2021-11-03",
+    "title": "Dataverse in Canada Series: Introduction and features you didn't know you needed!",
+    "speakers": [
+      "Jane Fry",
+      "Chantal Ripp",
+      "Meghan Goodchild"
+    ],
+    "slides": "https://portagenetwork.ca/event/dataverse-in-canada-leveraging-an-open-data-repository-for-research-data-stewardship/",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=IdymBp0CTd4"
+  },
+  {
+    "date": "2021-11-12",
+    "title": "Dataverse and research software publications",
+    "speakers": [
+      "Ana Trisovic"
+    ],
+    "slides": "https://events.hifis.net/event/205/contributions/931/attachments/272/484/Dataverse.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://events.hifis.net/event/205/"
+  },
+  {
+    "date": "2021-11-17",
+    "title": "Dataverse in Canada Series: Community Panel - Use cases from across Canada",
+    "speakers": [
+      "Dataverse North Expert Group"
+    ],
+    "slides": "https://portagenetwork.ca/event/dataverse-in-canada-leveraging-an-open-data-repository-for-research-data-stewardship/",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=GnRBU5Fotv0"
+  },
+  {
+    "date": "2021-11-24",
+    "title": "Adapting flexible metadata support in Dataverse to the needs of domain-specific repositories",
+    "speakers": [
+      "Philipp Conzett",
+      "Helene N. Andreassen"
+    ],
+    "slides": "https://hdl.handle.net/10037/23190",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=6Exy3bvLm9U"
+  },
+  {
+    "date": "2021-11-27",
+    "title": "Flexibility in Metadata Schemes and Standardisation: the Case of CMDI and the DANS Data Repository",
+    "speakers": [
+      "Marion Wittenberg",
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://www.iskouk.org/event-4527328",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=bw_EkE9WLjc"
+  },
+  {
+    "date": "2021-12-01",
+    "title": "Data Curation and Metadata Best Practices for Dataverse",
+    "speakers": [
+      "Teresa Bascik",
+      "Mark Goodwin",
+      "Ève Paquette-Bigras",
+      "Michael Steeleworthy"
+    ],
+    "slides": "https://portagenetwork.ca/event/dataverse-in-canada-leveraging-an-open-data-repository-for-research-data-stewardship/",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=OOro8ymXoEY"
+  },
+  {
+    "date": "2022-01-26",
+    "title": "Dataverse, DMPTool, RSpace, and Harvard Data Commons",
+    "speakers": [
+      "Julie Goldman",
+      "Danny Brooke"
+    ],
+    "slides": "https://cryptpad.fr/pad/#/2/pad/view/p4fUys8XxfB30ahg1G2P74i0KOPkuyt51+dsTQZX6ds/",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=BN5HKGYiJCg"
+  },
+  {
+    "date": "2022-08-02",
+    "title": "Introduction to the Dataverse Software (in Spanish)",
+    "speakers": [
+      "Gustavo Durand"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1L0uAFoLauNWIBu0RIhV_WgGOxyXih7lZErnKHeHJPmY/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=z2Fzjl5o6KA"
+  },
+  {
+    "date": "2022-09-15",
+    "title": "Introduction to Generalist Repositories for NIH Data Sharing",
+    "speakers": [
+      "Sonia Barbosa"
+    ],
+    "slides": "https://datascience.nih.gov/grei-collaborative-webinar-series",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=prywwu1Bzww"
+  },
+  {
+    "date": "2022-10-12",
+    "title": "Meet the GREI Generalist Repositories",
+    "speakers": [
+      "Sonia Barbosa"
+    ],
+    "slides": "https://datascience.nih.gov/grei-collaborative-webinar-series",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=JXaKr1B8lvw"
+  },
+  {
+    "date": "2022-11-10",
+    "title": "How to include generalist repositories in your NIH data management and sharing plans",
+    "speakers": [
+      "Ana Van Gulick",
+      "Julie Goldman",
+      "Rebecca Li",
+      "Jessica Herzog",
+      "Nici Pfeiffer"
+    ],
+    "slides": "https://osf.io/g8syp",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://osf.io/hecvk"
+  },
+  {
+    "date": "2022-12-08",
+    "title": "Best practices for sharing data in a generalist repository: Metadata, data preparation, and reporting",
+    "speakers": [
+      "Sonia Barbosa",
+      "Sarah Lippincott",
+      "Eric Olson",
+      "Ida Sim"
+    ],
+    "slides": "https://osf.io/h59ge",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=97RW26VsTtg"
+  },
+  {
+    "date": "2023-01-10",
+    "title": "EasyReview",
+    "speakers": [
+      "Jan Range"
+    ],
+    "slides": "https://www.dropbox.com/s/o986yf09c7a0tfr/EasyReview_SimTech_Range_2023.pdf?dl=1",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1itamTyNQLIUMBc-o-eJ9ugCAL8Fu1K--/view?usp=drive_link"
+  },
+  {
+    "date": "2023-02-07",
+    "title": "Demo of rdm-integration",
+    "speakers": [
+      "Dieuwertje Bloemen",
+      "Eryk Kulikowski"
+    ],
+    "slides": "https://kuleuven-my.sharepoint.com/:p:/g/personal/dieuwertje_bloemen_kuleuven_be/Ec5Six6VT5hCmzwfVJACF2oBCj5KgH7te9VAomBjzkqWnA?e=FC4F9t",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1uxF-aoP_C1sleyLe6MX6kQieNP0Dif68/view?usp=drive_link"
+  },
+  {
+    "date": "2023-03-08",
+    "title": "EasyDataverse",
+    "speakers": [
+      "Jan Range"
+    ],
+    "slides": "https://www.dropbox.com/s/0mkkiiuj3eody1t/EasyDataverse_IQSS_Talk_2023_JRange.pdf?dl=1",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1CjD4Yy0khChSOFlixkSZapIXEogS4lD3/view?usp=drive_link"
+  },
+  {
+    "date": "2023-03-21",
+    "title": "Kickoff of the Containerization Working Group",
+    "speakers": [
+      "Philip Durbin",
+      "Oliver Bertuch"
+    ],
+    "slides": "https://docs.google.com/document/d/1r_GMYqYzUyQR2LQ2cqSLWPDuFRzd18PJ-4UFC4Nvnpw/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1YN0EjqPoJftipVYi5GE8oLNTmRJ3XoF0/view?usp=drive_link"
+  },
+  {
+    "date": "2023-04-03",
+    "title": "IDS Toolkit Demo/Local Contexts - Dataverse",
+    "speakers": [
+      "Ramin Soleymani-Fard"
+    ],
+    "slides": "https://drive.google.com/file/d/1lnYVYsTdPwIjn-QY8hXOeaZ1BiAvbWsT/view?usp=share_link",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1kWMdMDlqm-kDK5yexBqKhaYuPBgefZD6/view?usp=sharing"
+  },
+  {
+    "date": "2023-04-04",
+    "title": "Data paper template generation tool",
+    "speakers": [
+      "Dimitri Szabo"
+    ],
+    "slides": "https://nextcloud.inrae.fr/s/xkJ8Yg7pF9FSrFn",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/15lJ0rtnqKiuk4elrz6a-VJ5FrFFItc6E/view?usp=sharing"
+  },
+  {
+    "date": "2023-05-02",
+    "title": "Pooch - Easily interact with data repositories from Python code",
+    "speakers": [
+      "Dominic Kempf"
+    ],
+    "slides": "https://heibox.uni-heidelberg.de/f/ef388cb5a8a74f3d8d26/",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/15jUNOyGh3DY_krb8NxjMfglyMfT3YMHV/view?usp=sharing"
+  },
+  {
+    "date": "2023-05-30",
+    "title": "Renku: a platform for sustainable data science",
+    "speakers": [
+      "Rok Roškar"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1IJVDbvRbItMHRzeR1TQVh1FChI-ZJ-vA/edit?usp=sharing&ouid=107356554743493650358&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1e-lp6L9-MPJ-sYe2PJPlhpM0MQfYkckl/view?usp=sharing"
+  },
+  {
+    "date": "2023-07-11",
+    "title": "Semantic enrichment using Dockerized Services",
+    "speakers": [
+      "Thomas van Erven"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1sdnmYlQHlQbuFK87EW4vlh9neNM_axYW/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1eofEJokyR8hWeEAk4DZxxtfsHI92IBFI/view?usp=sharing"
+  },
+  {
+    "date": "2023-08-22",
+    "title": "Knowledge Graphs and Semantic Search in Dataverse",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Hmk0lURneusskC8BAg2scLkyZEsnWoLqszzm8-b1QbE/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1qAvgu9GgS5V4HcyzAaaT4vKSYtJMBdHl/view?usp=sharing"
+  },
+  {
+    "date": "2023-09-15",
+    "title": "GREI Collaborative Webinar: Metadata Recommendations",
+    "speakers": [
+      "Julian Gautier"
+    ],
+    "slides": "https://doi.org/10.5281/zenodo.8356814",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=PmvEunzZUsc"
+  },
+  {
+    "date": "2023-09-20",
+    "title": "Introduction to Data Management & FAIR",
+    "speakers": [
+      "Katie Mika"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1qqyJqE_IghX--FTWqJ37YncCJ_e-BQ_z9wAMsqQ-Jv8/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=X19ne3S8Axo"
+  },
+  {
+    "date": "2023-10-11",
+    "title": "Introduction to Data Handling on the Dataverse Platform",
+    "speakers": [
+      "Sonia Barbosa",
+      "Gustavo Durand",
+      "Amber Leahey"
+    ],
+    "slides": "https://dataverse.org/presentations/introduction-data-handling-dataverse-platform",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=DzyFHoZp71g"
+  },
+  {
+    "date": "2023-10-12",
+    "title": "Platys and Dataverse",
+    "speakers": [
+      "Guido Schmutz"
+    ],
+    "slides": "https://github.com/TrivadisPF/platys-modern-data-platform/blob/develop/presentations/platys-two-pager-v1.0.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1Z3sBEe1d25VfPwetaZ3mFoHov-2K2M_I/view?usp=drive_link"
+  },
+  {
+    "date": "2023-10-17",
+    "title": "Oct 2023 Datavese Community Call: UX research and RO-Crate",
+    "speakers": [
+      "Julian Gautier",
+      "Eryk Kulikowski"
+    ],
+    "slides": "https://docs.google.com/presentation/d/16Wh_mmlF6DBh2a9JqbCaVxg_0PuydFWfe_XaB7AA89Q",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/163meDdiPpx7GtVYo0ue44iaypbAt4Pxf"
+  },
+  {
+    "date": "2023-11-15",
+    "title": "Introduction to Metadata in Dataverse Repositories: For Researchers and Support Staff",
+    "speakers": [
+      "Julian Gautier"
+    ],
+    "slides": "https://dataverse.org/presentations/introduction-metadata-dataverse-repositories-researchers-and-support",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=8BZRqtdhF68"
+  },
+  {
+    "date": "2023-12-04",
+    "title": "Intermediate Curation on the Dataverse Platform",
+    "speakers": [
+      "Sonia Barbosa"
+    ],
+    "slides": "https://dataverse.org/presentations/intermediate-curation-dataverse-platform",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=L5n6qci3bz0"
+  },
+  {
+    "date": "2023-12-12",
+    "title": "pyDataverse-Generator, an automated approach using the OpenAPI specification",
+    "speakers": [
+      "Jan Range"
+    ],
+    "slides": "https://drive.google.com/file/d/1aqtKnZWr67nXeQHLbfJyhuHQ7vYLykU4/view?usp=drive_link",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1yaM4vSc96RX-IhSGPfL3g9YfcB3-jazg/view?usp=sharing"
+  },
+  {
+    "date": "2024-01-09",
+    "title": "TurboCurator demo",
+    "speakers": [
+      "Kelly Doonan-Reed"
+    ],
+    "slides": "https://drive.google.com/file/d/1zFOGFBqlwggIO6qPHhmFLdt9YagIms8s/view?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1PBU5L0kfeqGrHlVNDWGHY1rM6XUTxT0q/view?usp=drive_link"
+  },
+  {
+    "date": "2024-01-23",
+    "title": "GDCC Sensitive Data IG meeting - National Repositories & National Regulations",
+    "speakers": [
+      "Katie Mika",
+      "Wim Hugo",
+      "Amber Leahey"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1raxrGDFBqADdhnBJGhxLja8OCEQezqJG/edit?usp=sharing&ouid=105249378030301834452&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1Wmmdi68FVa7hTU9Bhq_zxMFmjspQ5LVo/view?usp=drive_link"
+  },
+  {
+    "date": "2024-01-31",
+    "title": "Introduction to Dataverse APIs",
+    "speakers": [
+      "Gustavo Durand",
+      "Jim Myers"
+    ],
+    "slides": "https://dataverse.org/presentations/introduction-dataverse-apis",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=Z8C0kz5zn0s"
+  },
+  {
+    "date": "2024-02-06",
+    "title": "A Dataverse Beyond The Internet",
+    "speakers": [
+      "Jorrit Poelen"
+    ],
+    "slides": "https://jhpoelen.nl/dataverse-talk-2024-02-06/#/title-slide",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/130_Hhd8smSOXhXVpD8NE1zspyzZNmEvP/view?usp=drive_link"
+  },
+  {
+    "date": "2024-02-28",
+    "title": "Bringing Data Close to Compute at Harvard Dataverse",
+    "speakers": [
+      "Stefano Iacus"
+    ],
+    "slides": "https://docs.google.com/presentation/d/16BEBuRx6ClAJa-y3qBGH6HwLGftlyCBqQj4L8424DqE/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=9LmiVILZs_Q"
+  },
+  {
+    "date": "2024-04-05",
+    "title": "Distributed Metadata and Data with Dataverse",
+    "speakers": [
+      "Philip Durbin",
+      "Oliver Bertuch",
+      "Jan Range"
+    ],
+    "slides": "https://dataverse.org/presentations/distributed-metadata-and-data-dataverse",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=jSzwAIqjq-o"
+  },
+  {
+    "date": "2024-05-03",
+    "title": "Transforming a Digital Collection into a Data Collection",
+    "speakers": [
+      "Ceilyn Boyd"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Pc5jwZD2_kzz01SQeaZhYLPc7x_ltyOKRkUfEbkZQi4/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://hu-my.sharepoint.com/:v:/g/personal/alessandra_seiter_hks_harvard_edu/EfyiIGjMw8xGmSLHSdcPnjYBklqHIUXD6HgnpxZld4V9VQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qf34GF"
+  },
+  {
+    "date": "2024-05-28",
+    "title": "Dataverse, Large Language Models and knowledge graphs",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1wLtGx1NtQX8PP3IfDHzFVSq3VOaLE3gMaVPVFewlceU/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1ir5ANHBZmFqtKYTLptabRlzu_oiA9sZD/view?usp=sharing"
+  },
+  {
+    "date": "2024-08-06",
+    "title": "A Rust library, a CLI and a DVUploader desktop app",
+    "speakers": [
+      "Jan Range"
+    ],
+    "slides": "https://www.dropbox.com/scl/fi/zrj214bs42bbttmftme80/Rust_Dataverse_Range_2024.pdf?rlkey=t8awg4vtg2i3nrwgzvv1bas7v&st=7f8v0eip&dl=0",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1V-uDlEGAct_CaFHk4wdwN-7SaCcDsdou/view?usp=drive_link"
+  },
+  {
+    "date": "2024-09-03",
+    "title": "NLM’s Dataset Catalog and an updated to Data Explorer",
+    "speakers": [
+      "Alvin Stockdale",
+      "Peter Seibert",
+      "Amber Leahey",
+      "Nana Boateng"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/wwyvKXGCKRE/m/ErykmU-aAQAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1XuWjcOfohMi_4p4zUyi_7ROZjTrYy9OY/view?usp=drive_link"
+  },
+  {
+    "date": "2024-10-01",
+    "title": "Creating a Dataverse RO-Crate exporter with FAIR-IMPACT support",
+    "speakers": [
+      "Ozgur Karadeniz",
+      "Dieuwertje Bloemen"
+    ],
+    "slides": "https://drive.google.com/file/d/1Rs3GX38Pd6AYkmLQVNdisJjiNY09tAdE/view?usp=drive_link",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1p7v1jigDVKM1v8MSCsuvpCdwFNwzjQnc/view?usp=sharing"
+  },
+  {
+    "date": "2024-11-05",
+    "title": "DDI-CDI Basics/The CDIF Framework",
+    "speakers": [
+      "Arofan Gregory"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/ND3GOziRONU/m/0oYA0iM0BQAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/15SNeTCad2YcK6efmG62-im3DKaW1hjS9/view?usp=sharing"
+  },
+  {
+    "date": "2024-12-03",
+    "title": "Demo of KU Leuven’s review dashboard",
+    "speakers": [
+      "Ozgur Karadeniz"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/77JhdV21usw/m/U-C6qzpZAAAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/15GHTwKgELif98Q1KGlg2UPgxTUSPd5Pn/view?usp=drive_link"
+  },
+  {
+    "date": "2025-01-07",
+    "title": "Specialized Metadata in Generalist Repositories: OSF+CEDAR Integration",
+    "speakers": [
+      "Eric Olson"
+    ],
+    "slides": "https://doi.org/10.17605/OSF.IO/TQUYV",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1CXl19uNi8vhjsmxJKb_9XWv_wYyvqCBR/view?usp=drive_link"
+  },
+  {
+    "date": "2025-01-15",
+    "title": "Intro to Using the Harvard Dataverse & FAIR, and the NIH DMP Harvard Dataverse Guidance Document",
+    "speakers": [
+      "Sonia Barbosa",
+      "Katie Mika"
+    ],
+    "slides": "https://dataverse.org/presentations/introduction-using-harvard-dataverse-repository-fair-and-nih-dmp-harvard",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=iZHrHokIhLE"
+  },
+  {
+    "date": "2025-02-04",
+    "title": "Ask Dataverse and Large Language Models in the RAG framework",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1HFN-wAe4eUGwJAhYCLbNcNHAsi-Hy8jQ/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/17euSX__E1ik7ZzDbQa_RkklhoLE0Y4nr/view?usp=drive_link"
+  },
+  {
+    "date": "2025-03-13",
+    "title": "Using Permissions in Dataverse",
+    "speakers": [
+      "Sonia Barbosa",
+      "Gustavo Durand"
+    ],
+    "slides": "https://dataverse.org/presentations/permissions-dataverse-supported-repository",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=mx6zuOt-C2A"
+  },
+  {
+    "date": "2025-03-26",
+    "title": "Large Data Support in Harvard Dataverse",
+    "speakers": [
+      "Sonia Barbosa",
+      "Leonid Andreev"
+    ],
+    "slides": "https://dataverse.org/presentations/large-data-support-harvard-dataverse",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=IptLotFsjpU"
+  },
+  {
+    "date": "2025-04-01",
+    "title": "Dataverse XR-Spatial",
+    "speakers": [
+      "Charity Everett"
+    ],
+    "slides": "https://www.canva.com/design/DAGjCyXosTI/AmB34qCXlqyxqNJ3vVafAQ/view?utm_content=DAGjCyXosTI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3fa5ce6a8f",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/11GFMGg2s1LZDmbAULZtXiLNckKeSKAX4/view?usp=drive_link"
+  },
+  {
+    "date": "2025-04-08",
+    "title": "Dataverse and Croissant: Metadata for AI and Machine Learning Systems",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/104ZlLGRPhpEWN1KjDamatXY42r1ph7Z3AePZfJ6LKsc/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=AUSjdYhjHww"
+  },
+  {
+    "date": "2025-04-15",
+    "title": "Introduction to Metadata in Dataverse Repositories: For Installation Administrators",
+    "speakers": [
+      "Julian Gautier"
+    ],
+    "slides": "https://dataverse.org/presentations/introduction-metadata-dataverse-repositories-installation-administrators",
+    "source": "dataversetv",
+    "type": "tutorial",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=GgPI9X6Q7sI"
+  },
+  {
+    "date": "2025-05-06",
+    "title": "Integrated Data Downloads Using Dataverse for the Atlas of Economic Complexity",
+    "speakers": [
+      "Brendan Leonard",
+      "Robert Christie"
+    ],
+    "slides": "https://docs.google.com/presentation/d/14kblFuwooijKNwMajJwGbFSZ3jMM7yrd0qMt3xH09hM/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1ROHT1ZMx8QCxcxy2oKLHUtGvEgLaaWPj/view?usp=drive_link"
+  },
+  {
+    "date": "2025-07-01",
+    "title": "Renku integration with Dataverse",
+    "speakers": [
+      "Rok Roškar"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/2RZWXsKggSE/m/qBFGZqrKAwAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1l5s5LClt4lR0yOJT-C56Kl5fVOXB62xv/view?usp=drive_link"
+  },
+  {
+    "date": "2025-08-07",
+    "title": "Open OnDemand and Dataverse integration: OnDemand Loop demo",
+    "speakers": [
+      "Aday Bujeda"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/_vX899PJDY4/m/oj7wtIoOBgAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1ItFEz7TiwjFuWBLGjXfOBWpehGN6-8Fu/view?usp=drive_link"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Data Retention and Deletion Practices in Dataverse",
+    "speakers": [
+      "Yijia Qi"
+    ],
+    "slides": "https://dataverse.org/file/dataverseretentionslidespdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/19S-_8l6Ad8ciG2RQPFAwvKAEQfWWPr7C/view?usp=drive_link"
+  },
+  {
+    "date": "2025-09-02",
+    "title": "Fighting AI Bots at Borealis",
+    "speakers": [
+      "Bikramjit Channa"
+    ],
+    "slides": "https://docs.google.com/presentation/d/13UCVcQRhVZCEANwFWyl0afA3RyJfgx7pa7yHEhvmkSI",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/19S-_8l6Ad8ciG2RQPFAwvKAEQfWWPr7C/view?usp=drive_link"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "Open Journal Systems (OJS) integration with Dataverse",
+    "speakers": [
+      "Pablo Valério Polônia"
+    ],
+    "slides": "https://lepidus.com.br/plugins/apresentacoes/DataverseIntegrationPlugin-DataverseCommunityTalk.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1H3l1eKQ1JmgQurW7pfPC5rMdsnK_JTur/view?usp=drive_link"
+  },
+  {
+    "date": "2025-10-17",
+    "title": "Semantic Croissant and CDIF for Responsible AI",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1dRRDJTYwFg6tSre0sjlSPydmxjNoVCD9BqB5fMrgvYg/",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.linkedin.com/posts/vyacheslavtikhonov_idw2025-ai-fair-activity-7384478457168072704-7zoY"
+  },
+  {
+    "date": "2025-10-24",
+    "title": "Introduction to Croissant",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1lnbJaClstDrzG24Szk2kQwbygxEj-vXz9uyZZ9EX0NU/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=jXD88A7I-jg"
+  },
+  {
+    "date": "2025-11-04",
+    "title": "VibeARP: An experimental AI agent for the Adatrepozitórium Platform (ARP)",
+    "speakers": [
+      "Balázs Pataki"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1TNTHhS4hGkfalqpZGOI8iYkqzKJJN6JS/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1TOAnOZXtq6vz7IE2jWrs16bu-OydmPmM/view?usp=drive_link"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "Decentralized Archival Resource Key (dARK)",
+    "speakers": [
+      "Lautaro Matas"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Msqfd7sG8EDkFvmFli-V0eFTr6aLKBmm/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1wbhe6AIeQQtZNAsn9FNTAmEK7FMeg1kz/view?usp=sharing"
+  },
+  {
+    "date": "2026-01-06",
+    "title": "pyDataverse updates and a DCAT exporter",
+    "speakers": [
+      "Jan Range",
+      "Sjaak Derksen"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1wLlUZrzRtraQFHYdNN1TY2koKa3BAV5n/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1qLL4_eGV_gpMfikMxPMKv7kivsGryHib/view?usp=drive_link"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Intro to Zulip",
+    "speakers": [
+      "Philip Durbin"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Ur09MsRHOIGMvR4ub9bbPW0kiVOILxEwRzLscY5nKjs/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=HZr7TSLlQy8"
+  },
+  {
+    "date": "2026-01-28",
+    "title": "Simplifying Repository Selection with GREI's Flowchart and Comparison Chart",
+    "speakers": [
+      "Traci Snowden",
+      "Matt Carson"
+    ],
+    "slides": "https://doi.org/10.5281/zenodo.18407472",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=jmhO9F0P-ts"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "Geospatial features in Dataverse: adding more fields, an ISO-19115 exporter, using GeoNames",
+    "speakers": [
+      "Amber Leahey",
+      "Paul Boon"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1rDHA_8ggxEeEWXunSCPHkZknEEGr-bjE4sd9xU5R7kY/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1iQpSc9zPVev0R8kHvnY5D7f5_3mBUvZf/view?usp=drive_link"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Dataverse: an Open-Source Platform for Research Data",
+    "speakers": [
+      "Ceilyn Boyd",
+      "Sonia Barbosa",
+      "Philipp Conzett"
+    ],
+    "slides": "https://dataverse.org/publication/dataverse-project-and-global-dataverse-community-consortium-fair-open-source-platform",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=AUboDTH_qSo"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "Birdaro Training & Developing the Dataverse Community and Decision-Makers Playbooks",
+    "speakers": [
+      "Ceilyn Boyd",
+      "Philipp Conzett"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1wMon7urHUccESB34v7mMNeDaNneSdLKlT4NMdqV4nXM/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1OzJHRmhMhKBQ5yenLYKNWOd4lccwu70v/view?usp=drive_link"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Configure Your Dataverse Repository to Register DataCite DOIs",
+    "speakers": [
+      "Sonia Barbosa",
+      "Mary Hirsch",
+      "Gustavo Durand"
+    ],
+    "slides": "https://www.youtube.com/watch?v=YuNgI7crG5M",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=YuNgI7crG5M"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "DataverseLV: First Year Progress and Future Directions",
+    "speakers": [
+      "Daina Kosīte",
+      "Kristaps Oškalns"
+    ],
+    "slides": "https://dataverse.lv/wp-content/uploads/2026/05/2026-05-06_DataverseLV.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=geVALsnrBqk"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Introduction to Dataverse",
+    "speakers": [
+      "Gustavo Durand"
+    ],
+    "slides": "https://dataverse.lv/wp-content/uploads/2026/05/Dataverse-Latvia-May-2026.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=geVALsnrBqk"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Welcoming DataverseLV to the community (and how to navigate it!)",
+    "speakers": [
+      "Philip Durbin"
+    ],
+    "slides": "https://dataverse.lv/wp-content/uploads/2026/05/Latvia-Dataverse-Community.pdf",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://www.youtube.com/watch?v=geVALsnrBqk"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "Demo of mounting a dataset as a local file system",
+    "speakers": [
+      "Eryk Kulikowski"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1m7_yG-zqlHwjjaKa-mC738-Ob__IvTRjjFxQ3y7ribY/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1aTfc-4bfoTNkp3PyRQc9Y8_4wFGSKU2L/view?usp=drive_link"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Dataset relations: Connecting research outputs in Dataverse",
+    "speakers": [
+      "Vera Clemens"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1NA56y3aF19foNxhgihrroAkmrmx5ZZSpRcsVF6QbX3s/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1BtwreRlKODDEqSqm6xaIEKhPxEfTL68n/view?usp=drive_link"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Internationalization Working Group – Reborn!",
+    "speakers": [
+      "Alyssa Conlon"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1CnbZ7N8_w-MQwdscwo7Qj3ind4V9O9OihFvNG0U3LEk/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1BtwreRlKODDEqSqm6xaIEKhPxEfTL68n/view?usp=drive_link"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "README Generators from DataverseNO and Borealis",
+    "speakers": [
+      "Dag-Even Torsøe",
+      "Ali Abdurhman Kelil",
+      "Tameem Hamid"
+    ],
+    "slides": "https://groups.google.com/g/dataverse-community/c/cbUc4hsVTnk/m/MW0KtULQDgAJ",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1U0K5ER75EJ52H0y8pNvOgC36lOdNoxFB/view?usp=drive_link"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "A Dataverse metadata harvester",
+    "speakers": [
+      "Pascal Heus"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1lS8-Y_V7mY84U_9UGwEIpOwYAIu_-KJw3D-Iem1Z37k/edit?usp=sharing",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/16wZAe4ZRYNEbpLRt1NVRewVWNuXxWqUs/view?usp=drive_link"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Semantic Croissant AI infrastructure",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1GZL68D89vQiNhVX-IZA4sZCfoDhTYMcg/edit?usp=sharing&ouid=117275479921759507378&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/16wZAe4ZRYNEbpLRt1NVRewVWNuXxWqUs/view?usp=drive_link"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Internationalization Working Group kickoff meeting",
+    "speakers": [
+      "Alyssa Conlon"
+    ],
+    "slides": "https://docs.google.com/presentation/d/14EZEG7kYneyO4vpN68NN3pFGQlNFkPk9/edit?usp=sharing&ouid=107770072576338242009&rtpof=true&sd=true",
+    "source": "dataversetv",
+    "type": "talk",
+    "event": "",
+    "date_from": "checked",
+    "video": "https://drive.google.com/file/d/1LZolofRGLpr455O1MCzgqAc-qvRy49p-/view?usp=sharing"
+  }
+]
