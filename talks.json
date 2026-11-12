@@ -6217,6 +6217,21 @@
   },
   {
     "date": "2026-05-13",
+    "title": "Semantic Croissant, CDIF and AI-Driven Data Annotations",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://osf.io/awbjp/files/osfstorage/6ac90f8b535b368c14836fc4",
+    "source": "osf:awbjp",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2026",
+    "date_from": "checked",
+    "file_path": "/AI-driven CDIF and Semantic Croissant - UN workshop.pdf",
+    "confidence": "high",
+    "evidence": "title slide"
+  },
+  {
+    "date": "2026-05-13",
     "title": "ImageSearch – a tool for image semantic retrieval using text or image queries",
     "speakers": [
       "Adília Alves"
@@ -6484,6 +6499,21 @@
     "file_path": "/Slava - AI-driven CDIF and Semantic Croissant - DCM2026.pdf",
     "confidence": "high",
     "evidence": "https://dcm2026.com/wp-content/uploads/2026/05/FINAL_PROGRAMME_2026_05_06.pdf ; title slide"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "Decentralized identifiers (DIDs)",
+    "speakers": [
+      "Vyacheslav Tykhonov"
+    ],
+    "slides": "https://osf.io/awbjp/files/osfstorage/6ac90f745806a98ee5836f38",
+    "source": "osf:awbjp",
+    "type": "talk",
+    "event": "Dataverse Community Meeting 2026",
+    "date_from": "checked",
+    "file_path": "/UNECE workshop_ DIDs.pdf",
+    "confidence": "high",
+    "evidence": "title slide"
   },
   {
     "date": "2026-05-13",
@@ -6893,35 +6923,5 @@
     "file_path": "/Powering_curation_with_Dataverse.pdf",
     "confidence": "high",
     "evidence": "https://dcm2026.com/wp-content/uploads/2026/05/FINAL_PROGRAMME_2026_05_06.pdf ; title slide"
-  },
-  {
-    "date": "2026-05-27",
-    "title": "Semantic Croissant, CDIF and AI-Driven Data Annotations",
-    "speakers": [
-      "Vyacheslav Tykhonov"
-    ],
-    "slides": "https://osf.io/awbjp/files/osfstorage/6ac90f8b535b368c14836fc4",
-    "source": "osf:awbjp",
-    "type": "talk",
-    "event": "UNECE Modern Stats workshop, Wiesbaden",
-    "date_from": "checked",
-    "file_path": "/AI-driven CDIF and Semantic Croissant - UN workshop.pdf",
-    "confidence": "high",
-    "evidence": "title slide"
-  },
-  {
-    "date": "2026-05-27",
-    "title": "Decentralized identifiers (DIDs)",
-    "speakers": [
-      "Vyacheslav Tykhonov"
-    ],
-    "slides": "https://osf.io/awbjp/files/osfstorage/6ac90f745806a98ee5836f38",
-    "source": "osf:awbjp",
-    "type": "talk",
-    "event": "UNECE Modern Stats workshop, Wiesbaden",
-    "date_from": "checked",
-    "file_path": "/UNECE workshop_ DIDs.pdf",
-    "confidence": "high",
-    "evidence": "title slide"
   }
 ]
